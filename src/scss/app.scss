@@ -1,0 +1,17 @@
+//Core files
+@import "variables";
+@import "general";
+
+//Components
+@import "custom/components/buttons";
+@import "custom/components/header";
+@import "custom/components/footer";
+@import "./fontawesome/fontawesome.scss";
+@import "./fontawesome/solid.scss";
+@import "./fontawesome/brands.scss";
+
+
+// Pages
+@import "custom/pages/index";
+@import "media_queries";
+

@@ -1,0 +1,16 @@
+#header {
+  li{
+    &:not(:last-child) {
+      margin-right: 60px;
+    }
+
+    a{
+      color: $colorTxt;
+    }
+   
+  }
+
+  .navbar1 {
+    margin-left: 40px;
+  }
+}
