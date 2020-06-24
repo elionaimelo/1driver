@@ -9,14 +9,15 @@
   .section1 {
 
     .bg-purple {
-      margin-left: 100px;
       border-top-left-radius: 50px;
       border-bottom-left-radius: 50px;
       background:$roxoMaisEscuro url(../images/ladoA.png) bottom no-repeat;
       background-size: 100%;
 
-      padding-left: $section1-padding-left;
-      padding-top: 90px;
+      .aux1 {
+        padding-top: 99px;
+        padding-left: $section1-padding-left;
+      }
 
       h1 {
         margin-bottom: 40px;

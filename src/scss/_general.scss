@@ -13,6 +13,23 @@ body {
   padding-right: 120px;
 }
 
+/*
+ * Extra utilities
+ */
+
+ .flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
 a {
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
@@ -57,7 +74,6 @@ h3 {
 
 .bg-purple {
   background-color: $roxoMaisEscuro;
-  width: 50.1vw;
 }
 
 .bg-purple-opacity {
