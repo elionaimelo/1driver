@@ -4944,6 +4944,9 @@ readers do not read off random characters that represent icons */
   .container-fluid {
     padding-left: 35px;
     padding-right: 35px; }
+  .flex-lg-equal > * {
+    -ms-flex: 1;
+    flex: 1; }
   h1 {
     font-size: 2.2rem; }
   p {
@@ -5003,7 +5006,13 @@ readers do not read off random characters that represent icons */
     .index footer .shop a {
       display: inline-block; } }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem; }
+  .index .section1 .bg-purple .aux1 {
+    padding: 65px 100px 367px 100px !important; } }
+
+@media only screen and (max-width: 768px), only screen and (max-width: 600px) {
   .container-fluid {
     padding-right: 15px;
     padding-left: 15px; }
