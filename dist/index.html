@@ -15,7 +15,41 @@
   <body class="index">
     <header id="header">
       <div class="container-fluid">
-        @@include('./partials/header.html')
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand" href="#"
+            ><img src="assets/images/logo.png" alt="" class="img-fluid"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto navbar1">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Dirija</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Viaje</a>
+              </li>
+            </ul>
+            <ul class="mt-2 mt-md-0 navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="http://">Fale conosco</a>
+              </li>
+              <li>
+                <a class="nav-link link-purple" href="http://">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
       </div>
     </header>
 
@@ -257,7 +291,64 @@
      <!-- fim bg2 -->
 
     <footer>
-      @@include('./partials/footer.html')
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>
+              Precisa de ajuda?<br/> <span class="highlight">Fale conosco</span>
+            </h1>
+            <div class="buttons-menu">
+              <a href="http://" class="btn btn-four d-inline-block">Fale conosco</a>
+            <a href="http://" class="btn btn-four d-inline-block">Dirija</a>
+            <a href="http://" class="btn btn-four d-inline-block">Viaje</a>
+            </div>
+
+            <div class="social">
+              <a href="http://"  target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram d-inline-block"></i></a>
+              <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter d-inline-block"></i></a>
+              <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square d-inline-block"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h1>
+              Baixe o 1Driver <span class="highlight">gratuitamente!</span>
+            </h1>
+
+            <p>
+              Obtenha os aplicativos de passageiro ou motorista para Android ou iOS.
+            </p>
+
+            <div class="shop">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/appStore.jpg" alt="" class="img-fluid d-inline-block">
+              </a>
+             <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/googlePlay.jpg" alt="" class="img-fluid">
+            </a>
+            </div>
+
+      
+          </div>
+        </div>
+        <div class="row institucional">
+          <div class="col-md-4">
+            © 2020 1Driver App. Todos os direitos reservados.
+          </div>
+          <div class="col-md-2 d-lg-flex justify-content-center align-items-center">
+            <a href="http://evoelandingpage.mobstaging.com.br/termos">
+              Termos de uso
+            </a>
+          </div>
+          <div class="col-md-2 d-lg-flex justify-content-center align-items-center">
+            <a href="http://evoelandingpage.mobstaging.com.br/politica-de-privacidade">
+              Política de privacidade
+            </a>
+          </div>
+          <div class="col-md-4 d-lg-flex justify-content-end align-items-center">
+            <a class="link-mobister" href="https://mobister.com.br" target="_blank">mobister</a>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- Vendor js -->

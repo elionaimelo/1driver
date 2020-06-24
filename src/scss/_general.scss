@@ -5,33 +5,40 @@ html {
 body {
   font-family: $font1;
   font-weight: 400;
+  color: $colorTxt;
+}
+
+.container-fluid {
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 a {
   text-decoration: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   span {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 
   i {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     font-size: 15px;
     margin-left: 6px;
   }
 
   &:hover {
     text-decoration: none;
+    color: $roxoMaisEscuro !important;
   }
 }
 
@@ -39,30 +46,42 @@ h1 {
   font-size: 3rem;
 }
 
+h3 {
+  font-size: 2.4rem;
+}
+
 .w-95 {
-  width: 95%!important;
+  max-width: 92%!important;
   margin: auto;
 }
 
 .bg-purple {
   background-color: $roxoMaisEscuro;
+  width: 50.1vw;
 }
 
 .bg-purple-opacity {
   background-color: $roxo;
-  flex: 2.24 !important;
-  padding: 100px 80px;
+
 }
 
 .bg-red {
   background-color: $vermelho;
-  flex: 1.94 !important;
+
 }
 
-.bg-transparent {
-  flex:0.3 !important;
+.highlight {
+  color: $highlightRoxo;
 }
+
+// .bg-transparent {
+
+// }
 
 .txt {
   color: $colorTxt;
+}
+
+.txt-white {
+  color: white;
 }

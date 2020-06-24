@@ -1,4 +1,8 @@
 #header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 120px;
+  
   li{
     &:not(:last-child) {
       margin-right: 60px;
@@ -6,6 +10,17 @@
 
     a{
       color: $colorTxt;
+      padding: 10px 30px;
+
+      &.link-purple {
+        color: $roxo;
+        border-radius: 30px;
+        border:1px solid transparent;
+
+        &:hover {
+          border-color:$roxo;
+        }
+      }
     }
    
   }

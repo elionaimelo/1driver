@@ -1,6 +1,21 @@
-@media (min-width: 768px){
-  .flex-md-equal > * {
-      -ms-flex: 1;
-      flex: 1;
+
+@media screen and (max-width: 1280px){
+
+  h1 {
+    font-size: 2.5rem;
   }
+
+ .index {
+   .section1 {
+     .bg-purple {
+      width: 75vw;
+
+      .aux1 {
+        padding-top: 31px;
+        padding-left: 40px;
+      }
+
+     }
+   }
+ }
 }
