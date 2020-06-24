@@ -49,8 +49,8 @@
   }
 
   &:hover {
-    background-color: $lilas;
-    border-color: transparent;
+    background-color: $lilas !important;
+    border-color: transparent ;
 
     span {
       margin-left: $btn-recuo-animacao;
@@ -100,6 +100,6 @@
 
   &:hover {
     background-color: #F2F2F2;
-    color: $roxo;
+    color: $roxo !important;
   }
 }

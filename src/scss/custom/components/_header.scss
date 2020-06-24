@@ -22,7 +22,15 @@
         }
       }
     }
-   
+  }
+
+  .nav-2 {
+    li {
+      &:not(:last-child) {
+        margin-right: 0px;
+      }
+
+    }
   }
 
   .navbar1 {
