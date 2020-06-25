@@ -4940,6 +4940,10 @@ readers do not read off random characters that represent icons */
       color: #655D7E;
       font-weight: 400; }
 
+@media screen and (max-width: 1920px) {
+  .index .section1 .bg-purple {
+    margin-left: 120px; } }
+
 @media screen and (max-width: 1280px) {
   .container-fluid {
     padding-left: 35px;
@@ -4951,18 +4955,20 @@ readers do not read off random characters that represent icons */
     font-size: 2.2rem; }
   p {
     font-size: 1.3rem !important; }
-  .index .section1 .bg-purple img {
-    max-width: 38%; }
-  .index .section1 .bg-purple p {
-    font-size: 1rem;
-    line-height: 27px; }
-  .index .section1 .bg-purple .aux1 {
-    padding-top: 54px;
-    padding-left: 90px; }
-  .index .section1 .bg-purple .btn {
-    margin-right: 30px; }
-  .index .section1 .bg-purple h1 {
-    margin-bottom: 20px; }
+  .index .section1 .bg-purple {
+    margin-left: 30px; }
+    .index .section1 .bg-purple img {
+      max-width: 38%; }
+    .index .section1 .bg-purple p {
+      font-size: 1rem;
+      line-height: 27px; }
+    .index .section1 .bg-purple .aux1 {
+      padding-top: 54px;
+      padding-left: 90px; }
+    .index .section1 .bg-purple .btn {
+      margin-right: 30px; }
+    .index .section1 .bg-purple h1 {
+      margin-bottom: 20px; }
   .index .section2 {
     padding-left: 100px; }
     .index .section2 .txt1 {
