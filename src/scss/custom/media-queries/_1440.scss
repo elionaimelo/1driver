@@ -1,0 +1,167 @@
+@media screen and (max-width: 1440px) {
+  .container-fluid {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .flex-lg-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  #header{
+    padding-left: 75px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1.3rem !important;
+  }
+
+  // página index
+  .index {
+    .section1 {
+      .bg-purple {
+        margin-left: 30px;
+
+        img {
+          max-width: 38%;
+        }
+
+        p {
+          font-size: 1rem;
+          line-height: 27px;
+        }
+
+        .aux1 {
+          padding-top: 54px;
+          padding-left: 90px;
+        }
+
+        .btn {
+          margin-right: 30px;
+        }
+
+        h1 {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .section2 {
+      padding-left: $general-padding-left - 30px;
+
+      .txt1 {
+        padding-left: 129px;
+        padding-right: 0;
+        line-height: $txt-Line-Height - 10px;
+      }
+    }
+
+    .section3 {
+      .box-purple {
+        padding-left: 100px;
+
+        p {
+          padding-right: 0;
+          line-height: $txt-Line-Height - 10px;
+        }
+      }
+    }
+
+    .section5 , .section7 {
+      padding: 70px;
+      padding-left: $general-padding-left - 30px;
+      padding-right: $general-padding-left - 30px;
+
+      img {
+        max-width: 80%;
+      }
+
+      p {
+        line-height: $txt-Line-Height - 10px;
+      }
+    }
+
+    .section6 {
+      padding-left: $general-padding-left - 30px;
+      padding-right: $general-padding-left - 30px;
+
+      img {
+        max-width: 80%;
+      }
+
+      p {
+        line-height: $txt-Line-Height - 10px;
+        
+      }
+    }
+
+    .section7 {
+      h1 {
+        padding-right: 70px;
+      }
+    }
+
+    .section-bg3 {
+      padding-top: 250px;
+
+
+      p {
+        line-height: $txt-Line-Height - 10px;
+        padding-right: 0;
+      }
+    }
+
+    .section8 {
+      padding-left: $general-padding-left - 30px;
+      padding-right: $general-padding-left - 30px;
+    }
+  }
+
+  // fim da pg index
+
+
+  footer {
+    padding-left: $general-padding-left - 30px;
+    padding-right: $general-padding-left - 30px;
+
+    .shop {
+      a {
+        display: inline-block;
+      }
+    }
+  }
+
+
+  // página de motorista
+  .motoristas {
+    .section-bg1 {
+      margin-top: 240px;
+    }
+    .timeline1 {
+      padding-top: 235px;
+      .row {
+        margin-top: -5px;
+      }
+
+      .info1 {
+        margin-top: 95px;
+      }
+      .info2 , .info3 {
+        margin-top: 32px;
+      }
+    }
+
+    .timeline2 {
+      padding-top: 55px;
+    }
+
+   
+  }
+  //fim da página de motorista
+
+}

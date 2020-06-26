@@ -67,7 +67,49 @@ h3 {
 .txt-white {
   color: white; }
 
-.btn-primary, .btn-four {
+.section-bg1, .section-bg3 {
+  background-color: #F5F2FF;
+  min-height: 200px;
+  padding-bottom: 288px;
+  margin-top: -215px; }
+
+.section5,
+.section7,
+.motoristas .section1,
+.motoristas .section3 {
+  background-color: white;
+  border-radius: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 110px;
+  padding-right: 110px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  box-shadow: 0px 20px 30px rgba(71, 46, 153, 0.1);
+  color: #655D7E; }
+
+.section-bg2 {
+  background-color: #F74D49;
+  min-height: 200px;
+  padding-top: 300px;
+  padding-bottom: 505px; }
+
+.section-bg3 {
+  padding-top: 330px;
+  padding-bottom: 90px; }
+
+.section-bg4 {
+  background-color: #472E99;
+  min-height: 200px;
+  padding-top: 300px;
+  padding-bottom: 505px; }
+
+.btn-primary, .btn-four,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-four:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-four:not(:disabled):not(.disabled):active {
   background-color: #F74D49;
   color: white;
   border-radius: 30px;
@@ -77,17 +119,37 @@ h3 {
   border: none;
   width: 230px;
   border-color: transparent; }
-  .btn-primary i, .btn-four i {
+  .btn-primary i, .btn-four i,
+  .btn-primary:not(:disabled):not(.disabled).active i,
+  .btn-four:not(:disabled):not(.disabled).active i,
+  .btn-primary:not(:disabled):not(.disabled):active i,
+  .btn-four:not(:disabled):not(.disabled):active i {
     color: #F0DC26; }
-  .btn-primary span, .btn-four span {
+  .btn-primary span, .btn-four span,
+  .btn-primary:not(:disabled):not(.disabled).active span,
+  .btn-four:not(:disabled):not(.disabled).active span,
+  .btn-primary:not(:disabled):not(.disabled):active span,
+  .btn-four:not(:disabled):not(.disabled):active span {
     padding-left: 5px; }
-  .btn-primary:hover, .btn-four:hover {
+  .btn-primary:hover, .btn-four:hover,
+  .btn-primary:not(:disabled):not(.disabled).active:hover,
+  .btn-four:not(:disabled):not(.disabled).active:hover,
+  .btn-primary:not(:disabled):not(.disabled):active:hover,
+  .btn-four:not(:disabled):not(.disabled):active:hover {
     color: #F0DC26 !important;
     background-color: #F74D49; }
-    .btn-primary:hover span, .btn-four:hover span {
+    .btn-primary:hover span, .btn-four:hover span,
+    .btn-primary:not(:disabled):not(.disabled).active:hover span,
+    .btn-four:not(:disabled):not(.disabled).active:hover span,
+    .btn-primary:not(:disabled):not(.disabled):active:hover span,
+    .btn-four:not(:disabled):not(.disabled):active:hover span {
       margin-left: -10px;
       padding-right: 5px; }
-    .btn-primary:hover i, .btn-four:hover i {
+    .btn-primary:hover i, .btn-four:hover i,
+    .btn-primary:not(:disabled):not(.disabled).active:hover i,
+    .btn-four:not(:disabled):not(.disabled).active:hover i,
+    .btn-primary:not(:disabled):not(.disabled):active:hover i,
+    .btn-four:not(:disabled):not(.disabled):active:hover i {
       color: white;
       padding-left: 5px; }
 
@@ -123,7 +185,7 @@ h3 {
   .btn-third i {
     color: #F0DC26; }
   .btn-third:hover {
-    background-color: #E64845;
+    background-color: #e64845;
     color: white !important; }
     .btn-third:hover span {
       margin-left: -10px;
@@ -133,16 +195,17 @@ h3 {
 
 .btn-four {
   background-color: white;
+  width: auto !important;
   color: #472E99;
-  border: 2px solid #F2F2F2; }
+  border: 2px solid #f2f2f2; }
   .btn-four:hover {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     color: #472E99 !important; }
 
 #header {
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 120px; }
+  padding-left: 110px; }
   #header li:not(:last-child) {
     margin-right: 60px; }
   #header li a {
@@ -159,33 +222,33 @@ h3 {
   #header .navbar1 {
     margin-left: 40px; }
 
-.index footer {
+footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 130px;
-  padding-right: 130px; }
-  .index footer .social {
+  padding-left: 110px;
+  padding-right: 110px; }
+  footer .social {
     margin-top: 90px; }
-    .index footer .social i {
+    footer .social i {
       font-size: 30px;
       margin-right: 60px;
       color: #D4CBF0; }
-  .index footer .btn-primary, .index footer .btn-four {
+  footer .btn-primary, footer .btn-four {
     width: auto;
     padding: 10px 35px; }
-    .index footer .btn-primary:not(:last-child), .index footer .btn-four:not(:last-child) {
+    footer .btn-primary:not(:last-child), footer .btn-four:not(:last-child) {
       margin-right: 20px; }
-  .index footer .shop a:not(:last-child) {
+  footer .shop a:not(:last-child) {
     margin-right: 40px; }
-  .index footer h1 {
+  footer h1 {
     margin-bottom: 30px;
     color: #472E99; }
-  .index footer p {
+  footer p {
     margin-bottom: 75px; }
-  .index footer .institucional {
+  footer .institucional {
     margin-top: 110px;
     font-size: 13px; }
-    .index footer .institucional a {
+    footer .institucional a {
       color: #655D7E; }
 
 /*!
@@ -4774,12 +4837,6 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.index .section-bg1, .index .section-bg3 {
-  background-color: #F5F2FF;
-  min-height: 200px;
-  padding-bottom: 288px;
-  margin-top: -215px; }
-
 .index .section1 .bg-purple {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -4801,7 +4858,7 @@ readers do not read off random characters that represent icons */
 .index .section2 {
   padding-top: 250px;
   padding-bottom: 100px;
-  padding-left: 130px; }
+  padding-left: 110px; }
   .index .section2 .txt-purple {
     margin-top: 90px;
     padding-right: 150px;
@@ -4851,36 +4908,13 @@ readers do not read off random characters that represent icons */
 
 .index .section4 {
   padding: 80px 0 35px 0;
-  padding-left: 130px; }
+  padding-left: 110px; }
   .index .section4 img {
-    margin-top: -13px; }
+    margin-top: -13px;
+    margin-bottom: 20px; }
   .index .section4 h3 {
     color: #3D2885;
     margin-left: 30px; }
-
-.index .section-bg2 {
-  background-color: #F74D49;
-  min-height: 200px;
-  padding-top: 300px;
-  padding-bottom: 505px; }
-
-.index .section-bg3 {
-  padding-top: 330px;
-  padding-bottom: 90px; }
-
-.index .section5,
-.index .section7 {
-  background-color: white;
-  border-radius: 50px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  padding-left: 130px;
-  padding-right: 130px;
-  position: absolute;
-  z-index: 2;
-  margin-top: 50px;
-  box-shadow: 0px 20px 30px rgba(71, 46, 153, 0.1);
-  color: #655D7E; }
 
 .index .section5 h1 {
   padding-right: 138px;
@@ -4898,8 +4932,8 @@ readers do not read off random characters that represent icons */
 .index .section6 {
   padding-top: 20px;
   padding-bottom: 30px;
-  padding-left: 130px;
-  padding-right: 130px; }
+  padding-left: 110px;
+  padding-right: 110px; }
   .index .section6 h1 {
     padding-right: 50px; }
     .index .section6 h1 span {
@@ -4925,8 +4959,8 @@ readers do not read off random characters that represent icons */
   margin-bottom: 40px; }
 
 .index .section8 {
-  padding-left: 130px;
-  padding-right: 130px; }
+  padding-left: 110px;
+  padding-right: 110px; }
   .index .section8 h1 {
     margin-bottom: 50px;
     color: #3D2885; }
@@ -4941,16 +4975,120 @@ readers do not read off random characters that represent icons */
       font-weight: 400; }
 
 @media screen and (max-width: 1920px) {
-  .index .section1 .bg-purple {
-    margin-left: 120px; } }
+  .motoristas section {
+    padding-left: 110px;
+    padding-right: 110px; }
+  .motoristas .section-bg1, .motoristas .section-bg3 {
+    margin-top: 290px;
+    padding-bottom: 380px; }
+  .motoristas .btn-primary, .motoristas .btn-four {
+    width: 350px;
+    margin-top: 30px; }
+  .motoristas .section1 {
+    padding: 0;
+    width: 100%;
+    border-bottom-right-radius: 50px; }
+    .motoristas .section1 .aux1 {
+      padding: 60px 30px 30px 90px; }
+    .motoristas .section1 h1 {
+      color: #472E99; }
+      .motoristas .section1 h1 span {
+        color: rgba(71, 46, 153, 0.5); }
+  .motoristas .timeline1,
+  .motoristas .timeline2 {
+    padding-top: 278px; }
+    .motoristas .timeline1 .info1,
+    .motoristas .timeline2 .info1 {
+      margin-top: 115px; }
+    .motoristas .timeline1 .info2,
+    .motoristas .timeline1 .info3gl,
+    .motoristas .timeline2 .info2,
+    .motoristas .timeline2 .info3gl {
+      margin-top: 40px; }
+    .motoristas .timeline1 .info1 h1,
+    .motoristas .timeline1 .info2 h1,
+    .motoristas .timeline1 .info3 h1,
+    .motoristas .timeline2 .info1 h1,
+    .motoristas .timeline2 .info2 h1,
+    .motoristas .timeline2 .info3 h1 {
+      font-size: 3rem;
+      color: #472E99; }
+    .motoristas .timeline1 .info1 p,
+    .motoristas .timeline1 .info2 p,
+    .motoristas .timeline1 .info3 p,
+    .motoristas .timeline2 .info1 p,
+    .motoristas .timeline2 .info2 p,
+    .motoristas .timeline2 .info3 p {
+      font-size: 1.5rem;
+      color: #655D7E; }
+      .motoristas .timeline1 .info1 p span,
+      .motoristas .timeline1 .info2 p span,
+      .motoristas .timeline1 .info3 p span,
+      .motoristas .timeline2 .info1 p span,
+      .motoristas .timeline2 .info2 p span,
+      .motoristas .timeline2 .info3 p span {
+        font-weight: 500;
+        color: #655D7E; }
+  .motoristas .section3 {
+    margin-top: 100px; }
+    .motoristas .section3 h1 {
+      color: #3D2885; }
+    .motoristas .section3 p {
+      color: #655D7E; }
+    .motoristas .section3 .txt1 {
+      padding-right: 130px;
+      margin-top: 30px;
+      font-size: 1.5rem;
+      line-height: 41px; }
+      .motoristas .section3 .txt1 span {
+        font-weight: 500;
+        color: #655D7E; }
+    .motoristas .section3 .icon-map {
+      margin-top: 30px; }
+    .motoristas .section3 .txt2 {
+      margin-top: 37px;
+      font-size: 18px;
+      line-height: 32px;
+      padding-right: 110px; }
+      .motoristas .section3 .txt2 span {
+        font-weight: 500;
+        color: #655D7E; }
+  .motoristas .timeline2 {
+    padding-top: 0px; }
+    .motoristas .timeline2 .info1 h1,
+    .motoristas .timeline2 .info2 h1,
+    .motoristas .timeline2 .info3 h1 {
+      color: white; }
+    .motoristas .timeline2 .info1 p,
+    .motoristas .timeline2 .info2 p,
+    .motoristas .timeline2 .info3 p {
+      color: #A69AD0;
+      font-weight: 400; }
+      .motoristas .timeline2 .info1 p span,
+      .motoristas .timeline2 .info2 p span,
+      .motoristas .timeline2 .info3 p span {
+        color: #D4CBF0;
+        font-weight: 500; }
+    .motoristas .timeline2 .info3 {
+      margin-top: 50px; }
+      .motoristas .timeline2 .info3 .btn {
+        margin-top: 80px; }
+  .motoristas .section-bg4 {
+    padding-bottom: 180px; } }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1920px) {
+  .index .section1 .bg-purple {
+    margin-left: 91px; } }
+
+@media screen and (max-width: 1440px) {
   .container-fluid {
     padding-left: 35px;
     padding-right: 35px; }
   .flex-lg-equal > * {
     -ms-flex: 1;
     flex: 1; }
+  #header {
+    padding-left: 75px; }
   h1 {
     font-size: 2.2rem; }
   p {
@@ -4970,7 +5108,7 @@ readers do not read off random characters that represent icons */
     .index .section1 .bg-purple h1 {
       margin-bottom: 20px; }
   .index .section2 {
-    padding-left: 100px; }
+    padding-left: 80px; }
     .index .section2 .txt1 {
       padding-left: 129px;
       padding-right: 0;
@@ -4980,18 +5118,17 @@ readers do not read off random characters that represent icons */
     .index .section3 .box-purple p {
       padding-right: 0;
       line-height: 31px; }
-  .index .section5,
-  .index .section7 {
+  .index .section5, .index .section7 {
     padding: 70px;
-    padding-left: 100px;
-    padding-right: 100px; }
+    padding-left: 80px;
+    padding-right: 80px; }
     .index .section5 img, .index .section7 img {
       max-width: 80%; }
     .index .section5 p, .index .section7 p {
       line-height: 31px; }
   .index .section6 {
-    padding-left: 100px;
-    padding-right: 100px; }
+    padding-left: 80px;
+    padding-right: 80px; }
     .index .section6 img {
       max-width: 80%; }
     .index .section6 p {
@@ -5004,21 +5141,129 @@ readers do not read off random characters that represent icons */
       line-height: 31px;
       padding-right: 0; }
   .index .section8 {
-    padding-left: 100px;
-    padding-right: 100px; }
+    padding-left: 80px;
+    padding-right: 80px; }
+  footer {
+    padding-left: 80px;
+    padding-right: 80px; }
+    footer .shop a {
+      display: inline-block; }
+  .motoristas .section-bg1, .motoristas .section-bg3 {
+    margin-top: 240px; }
+  .motoristas .timeline1 {
+    padding-top: 235px; }
+    .motoristas .timeline1 .row {
+      margin-top: -5px; }
+    .motoristas .timeline1 .info1 {
+      margin-top: 95px; }
+    .motoristas .timeline1 .info2, .motoristas .timeline1 .info3 {
+      margin-top: 32px; }
+  .motoristas .timeline2 {
+    padding-top: 55px; } }
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px; }
+  #header {
+    padding-left: 0; }
+    #header .navbar1 {
+      margin-left: 0px; }
+  .btn {
+    margin-bottom: 30px; }
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6,
+  .section7,
+  .section8,
+  .motoristas section footer {
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .index .section1 .bg-purple {
+    overflow: hidden;
+    min-height: 200px;
+    margin-left: 0; }
+    .index .section1 .bg-purple .aux1 {
+      padding: 40px 45px 260px 45px; }
+    .index .section1 .bg-purple .btn {
+      margin-bottom: 30px; }
+    .index .section1 .bg-purple img {
+      margin-bottom: 120px;
+      max-width: 100%; }
+  .index .section-bg1, .index .section-bg3 {
+    margin-top: -71px;
+    padding-bottom: 110px; }
+  .index .section2 {
+    padding-top: 60px;
+    padding-left: 30px; }
+    .index .section2 .txt-purple {
+      padding-right: 20px;
+      margin-top: 120px;
+      margin-bottom: 30px; }
+    .index .section2 .txt1 {
+      padding-left: 0;
+      margin-top: 30px;
+      margin-bottom: 60px; }
+  .index .section3 .box-white {
+    padding: 50px 50px 80px 50px; }
+  .index .section3 .btn-floating {
+    left: 50%;
+    margin-left: -130px; }
+  .index .section3 .box-purple {
+    padding: 80px 50px 60px 50px; }
+  .index .section4 {
+    padding-top: 50px; }
+  .index .section5, .index .section7 {
+    padding: 50px 40px;
+    position: relative; }
+    .index .section5 h1,
+    .index .section7 h1 {
+      padding-right: 0px; }
+  .index .section-bg2 {
+    padding-top: 60px;
+    padding-bottom: 160px; }
+  .index .section-bg3 {
+    padding-top: 60px;
+    padding-bottom: 50px; }
+  .index .section8 img {
+    margin-top: 60px;
+    margin-bottom: 60px; }
   .index footer {
-    padding-left: 100px;
-    padding-right: 100px; }
-    .index footer .shop a {
-      display: inline-block; } }
+    padding-top: 60px; }
+    .index footer .buttons-menu a {
+      margin-bottom: 10px; }
+    .index footer .buttons-menu .btn-primary, .index footer .buttons-menu .btn-four {
+      margin-right: 0; }
+    .index footer .shop img {
+      margin-bottom: 10px; }
+    .index footer .social {
+      margin-bottom: 50px; }
+  .motoristas .btn {
+    width: auto; }
+  .motoristas .section1 {
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .motoristas .section1 {
+    position: relative;
+    padding-bottom: 0;
+    border-bottom-left-radius: 0; }
+    .motoristas .section1 .aux1 {
+      padding-left: 50px;
+      padding-top: 40px; }
+  .motoristas .section-bg1, .motoristas .section-bg3 {
+    padding-top: 0; }
+  .motoristas .timeline1 {
+    padding-top: 0; }
+    .motoristas .timeline1 .info1,
+    .motoristas .timeline1 .info2,
+    .motoristas .timeline1 .info3 {
+      margin-top: 0; } }
 
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 2rem; }
-  .index .section1 .bg-purple .aux1 {
-    padding: 65px 100px 367px 100px !important; } }
-
-@media only screen and (max-width: 768px), only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .container-fluid {
     padding-right: 15px;
     padding-left: 15px; }
@@ -5041,9 +5286,10 @@ readers do not read off random characters that represent icons */
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     overflow: hidden;
-    min-height: 200px; }
+    min-height: 200px;
+    margin-left: 0; }
     .index .section1 .bg-purple .aux1 {
-      padding: 40px 30px; }
+      padding: 40px 45px; }
     .index .section1 .bg-purple .btn {
       margin-bottom: 30px; }
     .index .section1 .bg-purple img {
@@ -5052,14 +5298,18 @@ readers do not read off random characters that represent icons */
   .index .section-bg1, .index .section-bg3 {
     margin-top: -71px;
     padding-bottom: 110px; }
-  .index .section2 .txt-purple {
-    padding-right: 20px;
-    margin-top: 120px;
-    margin-bottom: 30px; }
-  .index .section2 .txt1 {
-    padding-left: 0;
-    margin-top: 30px;
-    margin-bottom: 60px; }
+  .index .section2 {
+    padding-bottom: 0; }
+    .index .section2 .txt-purple {
+      padding-right: 20px;
+      margin-top: 120px;
+      margin-bottom: 30px; }
+    .index .section2 .txt1 {
+      padding-left: 0;
+      margin-top: 30px;
+      margin-bottom: 60px; }
+  .index .section4 {
+    padding-left: 0; }
   .index .section3 .box-white {
     padding: 50px 50px 80px 50px; }
   .index .section3 .btn-floating {
@@ -5069,11 +5319,11 @@ readers do not read off random characters that represent icons */
     padding: 80px 50px 60px 50px; }
   .index .section4 {
     padding-top: 50px; }
-  .index .section5,
-  .index .section7 {
+  .index .section5, .index .section7 {
     padding: 50px 40px;
     position: relative; }
-    .index .section5 h1, .index .section7 h1 {
+    .index .section5 h1,
+    .index .section7 h1 {
       padding-right: 0px; }
   .index .section-bg2 {
     padding-top: 60px;

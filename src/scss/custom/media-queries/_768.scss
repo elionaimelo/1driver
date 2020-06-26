@@ -1,0 +1,189 @@
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  #header {
+    padding-left: 0;
+
+    .navbar1 {
+      margin-left: 0px;
+    }
+  }
+
+  .btn {
+    margin-bottom: 30px;
+  }
+
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6,
+  .section7,
+  .section8,
+  .motoristas section footer {
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .index {
+    .section1 {
+      .bg-purple {
+        overflow: hidden;
+        min-height: 200px;
+        margin-left: 0;
+
+        .aux1 {
+          padding: 40px 45px 260px 45px;
+        }
+
+        .btn {
+          margin-bottom: 30px;
+        }
+
+        img {
+          margin-bottom: 120px;
+          max-width: 100%;
+        }
+      }
+    }
+
+    .section-bg1 {
+      margin-top: -71px;
+      padding-bottom: 110px;
+    }
+
+    .section2 {
+      padding-top: 60px;
+      padding-left: 30px;
+      .txt-purple {
+        padding-right: 20px;
+        margin-top: 120px;
+        margin-bottom: 30px;
+      }
+
+      .txt1 {
+        padding-left: 0;
+        margin-top: 30px;
+        margin-bottom: 60px;
+      }
+    }
+
+    .section3 {
+      .box-white {
+        padding: 50px 50px 80px 50px;
+      }
+
+      .btn-floating {
+        left: 50%;
+        margin-left: -130px;
+      }
+
+      .box-purple {
+        padding: 80px 50px 60px 50px;
+      }
+    }
+
+    .section4 {
+      padding-top: 50px;
+    }
+
+    .section5,
+    .section7 {
+      padding: 50px 40px;
+      position: relative;
+
+      h1 {
+        padding-right: 0px;
+      }
+    }
+
+    .section-bg2 {
+      padding-top: 60px;
+      padding-bottom: 160px;
+    }
+
+    .section-bg3 {
+      padding-top: 60px;
+      padding-bottom: 50px;
+    }
+
+    .section8 {
+      img {
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
+    }
+
+    footer {
+      padding-top: 60px;
+
+      .buttons-menu {
+        a {
+          margin-bottom: 10px;
+        }
+
+        .btn-primary {
+          margin-right: 0;
+        }
+      }
+
+      .shop {
+        img {
+          margin-bottom: 10px;
+        }
+      }
+
+      .social {
+        margin-bottom: 50px;
+      }
+    }
+  }
+  // fim da pg index
+
+ 
+  .motoristas {
+
+    .btn {
+      width: auto;
+    }
+
+    .section1
+    {
+      padding: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .section1 {
+      position: relative;
+      padding-bottom: 0;
+      border-bottom-left-radius: 0;
+
+      .aux1 {
+        padding-left: 50px;
+        padding-top: 40px;
+      }
+    }
+
+    .section-bg1 {
+      padding-top: 0;
+    }
+
+    .timeline1 {
+      padding-top: 0;
+
+      .info1,
+      .info2,
+      .info3 {
+        margin-top: 0;
+      }
+
+    }
+
+  }
+
+}

@@ -1,0 +1,141 @@
+@media screen and (max-width: 1920px) {
+  .motoristas {
+    section {
+      padding-left: $general-padding-left;
+      padding-right: $general-padding-left;
+    }
+
+    .section-bg1 {
+      margin-top: 290px;
+      padding-bottom: 380px;
+    }
+
+    .btn-primary {
+      width: 350px;
+      margin-top: 30px;
+    }
+
+    .section1 {
+      padding: 0;
+      width: 100%;
+      border-bottom-right-radius: 50px;
+
+      .aux1 {
+        padding: 60px 30px 30px 90px;
+      }
+
+      h1 {
+        color: $roxo;
+
+        span {
+          color: rgba($roxo, 0.5);
+        }
+      }
+    }
+
+    .timeline1,
+    .timeline2 {
+      padding-top: 278px;
+      .info1 {
+        margin-top: 115px;
+      }
+      .info2,
+      .info3gl {
+        margin-top: 40px;
+      }
+      .info1,
+      .info2,
+      .info3 {
+        h1 {
+          font-size: 3rem;
+          color: $roxo;
+        }
+
+        p {
+          font-size: 1.5rem;
+          color: $colorTxt;
+
+          span {
+            font-weight: 500;
+            color: $colorTxt;
+          }
+        }
+      }
+    }
+
+    .section3 {
+      margin-top: 100px;
+
+      h1 {
+        color: $roxoMaisEscuro;
+      }
+
+      p {
+        color: $colorTxt;
+      }
+
+      .txt1 {
+        padding-right: 130px;
+        margin-top: 30px;
+        font-size: $txt-Size;
+        line-height: $txt-Line-Height;
+
+        span {
+          font-weight: 500;
+          color: $colorTxt;
+        }
+      }
+
+      .icon-map {
+        margin-top: 30px;
+      }
+
+      .txt2 {
+        margin-top: 37px;
+        font-size: 18px;
+        line-height: 32px;
+        padding-right: 110px;
+
+        span {
+          font-weight: 500;
+          color: $colorTxt;
+        }
+      }
+    }
+    // fim section3
+
+    .timeline2 {
+      padding-top: 0px;
+
+      .info1,
+      .info2,
+      .info3 {
+        h1 {
+          color: white;
+        }
+
+        p {
+          color: $highlightRoxo;
+          font-weight: 400;
+
+          span {
+            color: $roxoClaro;
+            font-weight: 500;
+          }
+        }
+      }
+      .info3 {
+        margin-top: 50px;
+
+        .btn {
+          margin-top: 80px;
+        }
+      }
+    }
+    // fim timeline2
+
+    .section-bg4 {
+      padding-bottom: 180px;
+    }
+  }
+}
