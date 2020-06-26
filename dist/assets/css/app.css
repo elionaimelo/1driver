@@ -5151,7 +5151,9 @@ readers do not read off random characters that represent icons */
   .motoristas .section-bg1, .motoristas .section-bg3 {
     margin-top: 240px; }
   .motoristas .timeline1 {
-    padding-top: 235px; }
+    padding-top: 200px;
+    padding-left: 80px;
+    padding-right: 80px; }
     .motoristas .timeline1 .row {
       margin-top: -5px; }
     .motoristas .timeline1 .info1 {
@@ -5159,7 +5161,16 @@ readers do not read off random characters that represent icons */
     .motoristas .timeline1 .info2, .motoristas .timeline1 .info3 {
       margin-top: 32px; }
   .motoristas .timeline2 {
-    padding-top: 55px; } }
+    padding-top: 14px;
+    padding-left: 80px;
+    padding-right: 80px; }
+  .motoristas .section3 {
+    padding-left: 80px;
+    padding-right: 80px; }
+    .motoristas .section3 .icon-map {
+      margin-top: 10px; }
+    .motoristas .section3 .txt2 {
+      padding-right: 0; } }
 
 @media screen and (max-width: 768px) {
   .container-fluid {
