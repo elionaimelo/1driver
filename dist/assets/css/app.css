@@ -5593,11 +5593,17 @@ readers do not read off random characters that represent icons */
       line-height: 36px; }
   .motoristas .section-bg4 {
     padding-bottom: 0; }
+  .passageiros section {
+    padding-left: 0px;
+    padding-right: 0px; }
   .passageiros .btn {
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px; }
+  .passageiros .section-bg1, .passageiros .section-bg3 {
+    padding-top: 460px; }
   .passageiros .section1 .aux1 {
     padding: 0; }
     .passageiros .section1 .aux1 h1 {
@@ -5607,15 +5613,17 @@ readers do not read off random characters that represent icons */
     .passageiros .section1 .aux1 .btn {
       margin-left: 20px;
       margin-right: 20px; }
-  .passageiros .section3 .aux1 {
-    padding: 20px 30px; }
-    .passageiros .section3 .aux1 h1 {
-      padding-right: 0; }
-  .passageiros .section3 .btn {
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 0;
-    width: 100%; }
+  .passageiros .section3 {
+    margin-top: 50px; }
+    .passageiros .section3 .aux1 {
+      padding: 20px 30px; }
+      .passageiros .section3 .aux1 h1 {
+        padding-right: 0; }
+    .passageiros .section3 .btn {
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-left: 0;
+      width: 100%; }
   footer {
     padding-top: 60px !important; }
     footer .text-align-end {

@@ -200,12 +200,24 @@
   //fim motoristas
 
   .passageiros {
+
+    section {
+      padding-left: $general-padding-left - 110px;
+      padding-right: $general-padding-right - 110px;
+    }
+
     .btn {
       padding-left: 0;
       padding-right: 0;
+      margin-bottom: 40px;
       margin-left: 20px;
       margin-right: 20px;
     }
+
+    .section-bg1 {
+      padding-top: 460px;
+    }
+
     .section1 {
       .aux1 {
         padding: 0;
@@ -222,6 +234,8 @@
     }
 
     .section3 {
+      margin-top: 50px;
+      
       .aux1 {
         padding: 20px 30px;
 
