@@ -34,5 +34,28 @@
         }
       }
     }
+
+    .section2 {
+      h1 {
+        color: white;
+
+        span {
+          color: #f7bbba;
+        }
+      }
+
+      p {
+        margin-top: 35px;
+        font-size: 18px !important;
+
+        .highlight {
+          font-weight: 500;
+          color: white;
+        }
+      }
+    }
+
+    
+
   }
 }

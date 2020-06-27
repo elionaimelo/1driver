@@ -5119,7 +5119,17 @@ readers do not read off random characters that represent icons */
     .passageiros .section1 h1, .passageiros .section3 h1 {
       color: #472E99; }
       .passageiros .section1 h1 span, .passageiros .section3 h1 span {
-        color: rgba(71, 46, 153, 0.5); } }
+        color: rgba(71, 46, 153, 0.5); }
+  .passageiros .section2 h1 {
+    color: white; }
+    .passageiros .section2 h1 span {
+      color: #f7bbba; }
+  .passageiros .section2 p {
+    margin-top: 35px;
+    font-size: 18px !important; }
+    .passageiros .section2 p .highlight {
+      font-weight: 500;
+      color: white; } }
 
 @media screen and (max-width: 1920px) {
   .index .section1 .bg-purple {
