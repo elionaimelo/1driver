@@ -7,11 +7,19 @@
     
     .social {
       margin-top: 90px;
+      margin-bottom: 80px;
 
-      i {
-        font-size: 30px;
-        margin-right: 60px;
+      a{
         color: $roxoClaro;
+
+        i {
+          font-size: 30px;
+        }
+
+        &:not(:last-child) i {
+          margin-right: 60px;
+        }
+
       }
     }
 

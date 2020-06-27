@@ -247,11 +247,14 @@ footer {
   padding-left: 110px;
   padding-right: 110px; }
   footer .social {
-    margin-top: 90px; }
-    footer .social i {
-      font-size: 30px;
-      margin-right: 60px;
+    margin-top: 90px;
+    margin-bottom: 80px; }
+    footer .social a {
       color: #D4CBF0; }
+      footer .social a i {
+        font-size: 30px; }
+      footer .social a:not(:last-child) i {
+        margin-right: 60px; }
   footer .btn-primary, footer .btn-four {
     width: auto;
     padding: 10px 35px; }
