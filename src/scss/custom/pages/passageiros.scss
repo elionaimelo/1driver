@@ -55,7 +55,24 @@
       }
     }
 
-    
+    .section3 {
+      .aux1 {
+
+      }
+      h1 {
+        color:$vermelho;
+
+        span {
+          color: #f7bbba;
+        }
+      }
+    }
+
+    .section-bg3 {
+      background-color: #F7F0F0;
+      margin-top: 0;
+      padding-top: 400px;
+    }
 
   }
 }
