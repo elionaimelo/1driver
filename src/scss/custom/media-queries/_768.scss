@@ -228,6 +228,46 @@
   }
   //fim motoristas
 
+  .passageiros {
+
+    .section1 , .section3 {
+      position: relative;
+    }
+
+    .section-bg1 {
+      padding-bottom: 90px;
+      padding-top: 0;
+      margin-top: 80px;
+    }
+
+    .section2 {
+      padding: 40px 10px;
+    }
+
+    .section3 {
+      margin-top: 100px;
+
+      .btn-secondary {
+        width: 100%;
+      }
+    }
+
+    .section-bg3 {
+      margin-top: 0;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .section8 {
+      img {
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
+    }
+
+
+  }
+
   footer {
     .btn-four {
       padding-left: 0;

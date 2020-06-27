@@ -5107,8 +5107,9 @@ readers do not read off random characters that represent icons */
     padding-top: 505px;
     padding-bottom: 430px; }
   .passageiros .btn {
-    width: auto;
     margin: 20px auto; }
+  .passageiros .btn-primary, .passageiros .btn-four {
+    width: 340px; }
   .passageiros .section1, .passageiros .section3 {
     padding: 0;
     width: 100%;
@@ -5139,7 +5140,7 @@ readers do not read off random characters that represent icons */
   .passageiros .section-bg3 {
     background-color: #F7F0F0;
     margin-top: 0;
-    padding-top: 435px;
+    padding-top: 465px;
     padding-bottom: 112px; }
   .passageiros .section8 {
     padding-left: 0;
@@ -5367,7 +5368,7 @@ readers do not read off random characters that represent icons */
   .passageiros .section3 {
     margin-top: 100px; }
   .passageiros .section-bg3 {
-    padding-top: 380px;
+    padding-top: 470px;
     padding-bottom: 130px; } }
 
 @media screen and (max-width: 768px) {
@@ -5497,6 +5498,25 @@ readers do not read off random characters that represent icons */
     .motoristas .section-bg4 .info2,
     .motoristas .section-bg4 .info3 {
       margin-top: 0; }
+  .passageiros .section1, .passageiros .section3 {
+    position: relative; }
+  .passageiros .section-bg1, .passageiros .section-bg3 {
+    padding-bottom: 90px;
+    padding-top: 0;
+    margin-top: 80px; }
+  .passageiros .section2 {
+    padding: 40px 10px; }
+  .passageiros .section3 {
+    margin-top: 100px; }
+    .passageiros .section3 .btn-secondary {
+      width: 100%; }
+  .passageiros .section-bg3 {
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .passageiros .section8 img {
+    margin-top: 60px;
+    margin-bottom: 60px; }
   footer .btn-four {
     padding-left: 0;
     padding-right: 0;
@@ -5622,8 +5642,6 @@ readers do not read off random characters that represent icons */
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px; }
-  .passageiros .section-bg1, .passageiros .section-bg3 {
-    padding-top: 460px; }
   .passageiros .section1 .aux1 {
     padding: 0; }
     .passageiros .section1 .aux1 h1 {
@@ -5645,6 +5663,7 @@ readers do not read off random characters that represent icons */
       margin-left: 0;
       width: 100%; }
   footer {
+    padding: 0;
     padding-top: 60px !important; }
     footer .text-align-end {
       text-align: end; }
