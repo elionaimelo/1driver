@@ -5649,6 +5649,7 @@ readers do not read off random characters that represent icons */
       padding-left: 25px;
       padding-right: 0; }
     .passageiros .section1 .aux1 .btn {
+      width: auto;
       margin-left: 20px;
       margin-right: 20px; }
   .passageiros .section3 {
@@ -5662,6 +5663,8 @@ readers do not read off random characters that represent icons */
       padding-right: 30px;
       margin-left: 0;
       width: 100%; }
+  .passageiros .section8 .btn {
+    width: auto; }
   footer {
     padding: 0;
     padding-top: 60px !important; }

@@ -223,6 +223,7 @@
           padding-right: 0;
         }
         .btn {
+          width: auto;
           margin-left: 20px;
           margin-right: 20px;
         }
@@ -245,6 +246,12 @@
         padding-right: 30px;
         margin-left: 0;
         width: 100%;
+      }
+    }
+
+    .section8 {
+      .btn {
+        width: auto;
       }
     }
   }
