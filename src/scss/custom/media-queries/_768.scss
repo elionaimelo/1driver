@@ -234,6 +234,22 @@
       position: relative;
     }
 
+    .btn {
+      width: auto;
+      margin-bottom: 70px;
+    }
+
+    .section1 {
+      .aux1 {
+        padding: 60px 40px 10px 40px;
+
+        h1 {
+          padding-right: 0;
+          padding:10px 60px 50px 60px;
+        }
+      }
+    }
+
     .section-bg1 {
       padding-bottom: 90px;
       padding-top: 0;
@@ -247,6 +263,14 @@
     .section3 {
       margin-top: 100px;
 
+      .aux1 {
+        padding: 60px 40px 10px 40px;
+
+        h1 {
+          padding-right: 0;
+        }
+      }
+
       .btn-secondary {
         width: 100%;
       }
@@ -256,11 +280,17 @@
       margin-top: 0;
       padding-top: 40px;
       padding-bottom: 40px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 
     .section8 {
+
+      h1 {
+        margin-bottom: 60px;
+      }
       img {
-        margin-top: 60px;
+        margin-top: 30px;
         margin-bottom: 60px;
       }
     }
@@ -269,6 +299,12 @@
   }
 
   footer {
+
+    .btn {
+      margin-bottom: 20px !important;
+      margin-top: 20px !important;
+    }
+
     .btn-four {
       padding-left: 0;
       padding-right: 0;

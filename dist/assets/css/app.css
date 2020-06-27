@@ -5502,6 +5502,14 @@ readers do not read off random characters that represent icons */
       margin-top: 0; }
   .passageiros .section1, .passageiros .section3 {
     position: relative; }
+  .passageiros .btn {
+    width: auto;
+    margin-bottom: 70px; }
+  .passageiros .section1 .aux1 {
+    padding: 60px 40px 10px 40px; }
+    .passageiros .section1 .aux1 h1 {
+      padding-right: 0;
+      padding: 10px 60px 50px 60px; }
   .passageiros .section-bg1, .passageiros .section-bg3 {
     padding-bottom: 90px;
     padding-top: 0;
@@ -5510,15 +5518,26 @@ readers do not read off random characters that represent icons */
     padding: 40px 10px; }
   .passageiros .section3 {
     margin-top: 100px; }
+    .passageiros .section3 .aux1 {
+      padding: 60px 40px 10px 40px; }
+      .passageiros .section3 .aux1 h1 {
+        padding-right: 0; }
     .passageiros .section3 .btn-secondary {
       width: 100%; }
   .passageiros .section-bg3 {
     margin-top: 0;
     padding-top: 40px;
-    padding-bottom: 40px; }
-  .passageiros .section8 img {
-    margin-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .passageiros .section8 h1 {
     margin-bottom: 60px; }
+  .passageiros .section8 img {
+    margin-top: 30px;
+    margin-bottom: 60px; }
+  footer .btn {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important; }
   footer .btn-four {
     padding-left: 0;
     padding-right: 0;
