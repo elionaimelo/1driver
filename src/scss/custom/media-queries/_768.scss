@@ -14,6 +14,7 @@
 
   .btn {
     margin-bottom: 30px;
+    width: auto;
   }
 
   .section2,
@@ -43,6 +44,7 @@
 
         .btn {
           margin-bottom: 30px;
+          margin-right: 0;
         }
 
         img {
@@ -208,6 +210,15 @@
      .info3 {
        margin-top: 0;
      }
+    }
+  }
+  //fim motoristas
+
+  footer {
+    .btn-four {
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 0 !important;
     }
 
   }

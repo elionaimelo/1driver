@@ -16,10 +16,6 @@
     
   .index {
 
-    .btn {
-      width: auto;
-    }
-
     .section2, 
     .section3,
     .section4,
@@ -134,9 +130,6 @@
         margin-bottom: 60px;
       }
     }
-    .text-align-end {
-      text-align: end;
-    }
   }
 
   // fim da pg index
@@ -174,6 +167,17 @@
       }
     }
 
+    .timeline1 ,
+    .timeline2
+    {
+      .info1 ,
+      .info2 ,
+      .info3 {
+        margin-bottom: 60px;
+      }
+    
+    }
+
     .section3 {   
       position: relative;
 
@@ -189,6 +193,10 @@
       }
     }
 
+    .section-bg4 {
+      padding-bottom: 0;
+    }
+
     
 
     
@@ -198,6 +206,10 @@
 
   footer {
     padding-top: 60px !important;
+
+    .text-align-end {
+      text-align: end;
+    }
 
     .buttons-menu {
       a {

@@ -4876,6 +4876,8 @@ readers do not read off random characters that represent icons */
   .index .section3 .btn-floating {
     z-index: 10;
     margin-top: -30px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-left: 131px; }
   .index .section3 .box-white {
     background-color: white;
@@ -5181,7 +5183,8 @@ readers do not read off random characters that represent icons */
     #header .navbar1 {
       margin-left: 0px; }
   .btn {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    width: auto; }
   .section2,
   .section3,
   .section4,
@@ -5200,7 +5203,8 @@ readers do not read off random characters that represent icons */
     .index .section1 .bg-purple .aux1 {
       padding: 40px 45px 260px 45px; }
     .index .section1 .bg-purple .btn {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      margin-right: 0; }
     .index .section1 .bg-purple img {
       margin-bottom: 120px;
       max-width: 100%; }
@@ -5289,7 +5293,11 @@ readers do not read off random characters that represent icons */
       margin-top: 50px; }
     .motoristas .section-bg4 .info2,
     .motoristas .section-bg4 .info3 {
-      margin-top: 0; } }
+      margin-top: 0; }
+  footer .btn-four {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0 !important; } }
 
 @media screen and (max-width: 600px) {
   .container-fluid {
@@ -5299,8 +5307,6 @@ readers do not read off random characters that represent icons */
     padding-left: 0; }
     #header .navbar1 {
       margin-left: 0px; }
-  .index .btn {
-    width: auto; }
   .index .section2,
   .index .section3,
   .index .section4,
@@ -5367,8 +5373,6 @@ readers do not read off random characters that represent icons */
   .index .section8 img {
     margin-top: 60px;
     margin-bottom: 60px; }
-  .index .text-align-end {
-    text-align: end; }
   .motoristas .btn {
     padding-left: 15px;
     padding-right: 15px; }
@@ -5388,6 +5392,13 @@ readers do not read off random characters that represent icons */
     .motoristas .section1 .aux1 .btn {
       margin-left: 20px;
       margin-right: 20px; }
+  .motoristas .timeline1 .info1,
+  .motoristas .timeline1 .info2,
+  .motoristas .timeline1 .info3,
+  .motoristas .timeline2 .info1,
+  .motoristas .timeline2 .info2,
+  .motoristas .timeline2 .info3 {
+    margin-bottom: 60px; }
   .motoristas .section3 {
     position: relative; }
     .motoristas .section3 .btn {
@@ -5397,8 +5408,12 @@ readers do not read off random characters that represent icons */
       padding-left: 20px;
       padding-right: 20px;
       line-height: 36px; }
+  .motoristas .section-bg4 {
+    padding-bottom: 0; }
   footer {
     padding-top: 60px !important; }
+    footer .text-align-end {
+      text-align: end; }
     footer .buttons-menu a {
       margin-bottom: 10px; }
     footer .buttons-menu .btn-primary, footer .buttons-menu .btn-four {
