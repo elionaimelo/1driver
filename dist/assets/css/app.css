@@ -243,7 +243,7 @@ h3 {
 
 footer {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   padding-left: 110px;
   padding-right: 110px; }
   footer .social {
@@ -5131,13 +5131,120 @@ readers do not read off random characters that represent icons */
       font-weight: 500;
       color: white; }
   .passageiros .section3 h1 {
-    color: #F74D49; }
+    color: #F74D49;
+    margin-bottom: 45px; }
     .passageiros .section3 h1 span {
-      color: #f7bbba; }
-  .passageiros .section-bg3 {
-    background-color: #F7F0F0;
-    margin-top: 0;
-    padding-top: 400px; } }
+      color: #f7bbba; } }
+
+.form-search {
+  position: relative;
+  z-index: 2;
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  /* estilo do input ------------------------------- */
+  /* LABEL ======================================= */
+  /* active  */
+  /* linha ================================= */
+  /* active linha */
+  /* HIGHLIGHT ================================== */
+  /* active */ }
+  .form-search::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    opacity: 0.8;
+    z-index: 3; }
+  .form-search > form {
+    z-index: 4;
+    position: relative;
+    padding: 0px 10px;
+    width: 100%; }
+  .form-search .group {
+    position: relative;
+    margin-bottom: 45px; }
+  .form-search .group input {
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #989898;
+    background: none;
+    color: #eee; }
+  .form-search .group input:focus {
+    outline: none; }
+  .form-search .group label {
+    color: #655D7E;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 5px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all; }
+  .form-search .group input:focus ~ label, .form-search input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #655D7E; }
+  .form-search .bar {
+    position: relative;
+    display: block;
+    width: 100%; }
+  .form-search .bar:before, .form-search .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #F74D49;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all; }
+  .form-search .bar:before {
+    left: 50%; }
+  .form-search .bar:after {
+    right: 50%; }
+  .form-search .group input:focus ~ .bar:before, .form-search .group input:focus ~ .bar:after {
+    width: 50%; }
+  .form-search .login-card .highlight {
+    position: absolute;
+    height: 0%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5; }
+  .form-search .group input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease; }
+  .form-search .span-input {
+    margin-left: 10px;
+    position: relative;
+    top: 0px; }
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: rgba(255, 255, 255, 0.7); }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@keyframes inputHighlighter {
+  from {
+    background: rgba(255, 255, 255, 0.7); }
+  to {
+    width: 0;
+    background: transparent; } }
 
 @media screen and (max-width: 1920px) {
   .index .section1 .bg-purple {
@@ -5233,7 +5340,15 @@ readers do not read off random characters that represent icons */
     .motoristas .section3 .icon-map {
       margin-top: 10px; }
     .motoristas .section3 .txt2 {
-      padding-right: 0; } }
+      padding-right: 0; }
+  .passageiros .section-bg1, .passageiros .section-bg3 {
+    padding-top: 400px;
+    padding-bottom: 330px; }
+  .passageiros .section3 {
+    margin-top: 100px; }
+  .passageiros .section-bg3 {
+    padding-top: 380px;
+    padding-bottom: 130px; } }
 
 @media screen and (max-width: 768px) {
   .container-fluid {
@@ -5492,6 +5607,15 @@ readers do not read off random characters that represent icons */
     .passageiros .section1 .aux1 .btn {
       margin-left: 20px;
       margin-right: 20px; }
+  .passageiros .section3 .aux1 {
+    padding: 20px 30px; }
+    .passageiros .section3 .aux1 h1 {
+      padding-right: 0; }
+  .passageiros .section3 .btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 0;
+    width: 100%; }
   footer {
     padding-top: 60px !important; }
     footer .text-align-end {
