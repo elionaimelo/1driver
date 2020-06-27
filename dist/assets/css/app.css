@@ -5104,11 +5104,10 @@ readers do not read off random characters that represent icons */
   .passageiros .section-bg1, .passageiros .section-bg3 {
     margin-top: 160px;
     background-color: #F74D49;
-    padding-top: 475px; }
+    padding-top: 505px;
+    padding-bottom: 430px; }
   .passageiros .btn {
     width: auto;
-    padding-left: 30px;
-    padding-right: 30px;
     margin: 20px auto; }
   .passageiros .section1, .passageiros .section3 {
     padding: 0;
@@ -5130,11 +5129,32 @@ readers do not read off random characters that represent icons */
     .passageiros .section2 p .highlight {
       font-weight: 500;
       color: white; }
-  .passageiros .section3 h1 {
-    color: #F74D49;
-    margin-bottom: 45px; }
-    .passageiros .section3 h1 span {
-      color: #f7bbba; } }
+  .passageiros .section3 {
+    margin-top: 110px; }
+    .passageiros .section3 h1 {
+      color: #F74D49;
+      margin-bottom: 45px; }
+      .passageiros .section3 h1 span {
+        color: #f7bbba; }
+  .passageiros .section-bg3 {
+    background-color: #F7F0F0;
+    margin-top: 0;
+    padding-top: 435px;
+    padding-bottom: 112px; }
+  .passageiros .section8 {
+    padding-left: 0;
+    padding-right: 0; }
+    .passageiros .section8 h1 {
+      color: #F74D49; }
+      .passageiros .section8 h1 span {
+        color: rgba(247, 77, 73, 0.5); }
+    .passageiros .section8 p {
+      font-weight: 500;
+      font-size: 1.5rem;
+      line-height: 41px; }
+      .passageiros .section8 p span {
+        color: #655D7E;
+        font-weight: 400; } }
 
 .form-search {
   position: relative;
