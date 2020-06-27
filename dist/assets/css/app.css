@@ -5624,6 +5624,8 @@ readers do not read off random characters that represent icons */
     margin-bottom: 60px; }
   .motoristas .section3 {
     position: relative; }
+    .motoristas .section3 h1 {
+      padding-right: 0; }
     .motoristas .section3 .btn {
       margin-left: 20px;
       margin-right: 20px; }
