@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1Driver</title>
+    <!-- App css -->
+    <link
+      href="assets/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="passageiros">
+    <header id="header">
+      <div class="container-fluid">
+        @@include('./partials/header.html')
+      </div>
+    </header>
+
+    <div class="container-fluid">
+      <div class="position-relative">
+        <section class="section1">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="aux1">
+                <h1>
+                  A melhor maneira de chegar
+                  <span class="highlight"> onde quer que você vá</span>
+                </h1>
+
+                <a
+                  href="http://"
+                  class="btn btn-primary d-block d-lg-inline-block"
+                  >Cadastre-se como Passageiro
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="assets/images/passageiro1.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- fim section1 -->
+      </div>
+      <!-- fim position-relative -->
+    </div>
+    <!-- fim container-fluid -->
+
+    <footer>
+      @@include('./partials/footer.html')
+    </footer>
+
+    <!-- Vendor js -->
+    <script src="assets/js/vendor.js"></script>
+
+    <!-- App js -->
+    <script src="assets/js/app.min.js"></script>
+  </body>
+</html>

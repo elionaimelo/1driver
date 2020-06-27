@@ -1,0 +1,38 @@
+@media screen and (max-width: 1920px) {
+  .passageiros {
+    section {
+      padding-left: $general-padding-left;
+      padding-right: $general-padding-left;
+    }
+
+    .section-bg1 {
+      margin-top: 160px;
+      background-color: $vermelho;
+      padding-top: 475px;
+    }
+
+    .btn {
+      width: auto;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin: 20px auto;
+    }
+
+    .section1 , .section3 {
+      padding: 0;
+      width: 100%;
+      border-bottom-right-radius: 50px;
+      .aux1 {
+        padding: 70px 30px 30px 90px;
+      }
+
+      h1 {
+        color: $roxo;
+
+        span {
+          color: rgba($roxo, 0.5);
+        }
+      }
+    }
+  }
+}

@@ -26,16 +26,16 @@ body {
 .overflow-hidden {
   overflow: hidden; }
 
-a {
+a, button {
   text-decoration: none;
   transition: all 0.2s ease-in-out; }
-  a span {
+  a span, button span {
     transition: all 0.2s ease-in-out; }
-  a i {
+  a i, button i {
     transition: all 0.2s ease-in-out;
     font-size: 15px;
     margin-left: 6px; }
-  a:hover {
+  a:hover, button:hover {
     text-decoration: none;
     color: #3D2885 !important; }
 
@@ -76,7 +76,9 @@ h3 {
 .section5,
 .section7,
 .motoristas .section1,
-.motoristas .section3 {
+.motoristas .section3,
+.passageiros .section1,
+.passageiros .section3 {
   background-color: white;
   border-radius: 50px;
   padding-top: 80px;
@@ -88,6 +90,22 @@ h3 {
   margin-top: 50px;
   box-shadow: 0px 20px 30px rgba(71, 46, 153, 0.1);
   color: #655D7E; }
+  .section5 h1,
+  .section7 h1,
+  .motoristas .section1 h1,
+  .motoristas .section3 h1,
+  .passageiros .section1 h1,
+  .passageiros .section3 h1 {
+    padding-right: 138px;
+    margin-top: 30px;
+    color: #472E99; }
+    .section5 h1 span,
+    .section7 h1 span,
+    .motoristas .section1 h1 span,
+    .motoristas .section3 h1 span,
+    .passageiros .section1 h1 span,
+    .passageiros .section3 h1 span {
+      color: rgba(71, 46, 153, 0.5); }
 
 .section-bg2 {
   background-color: #F74D49;
@@ -166,12 +184,13 @@ h3 {
     color: #F74D49; }
   .btn-secondary:hover {
     background-color: #F5F2FF !important;
+    color: #3D2885;
     border-color: transparent; }
     .btn-secondary:hover span {
-      margin-left: -10px;
+      margin-left: -5px;
       padding-right: 5px; }
     .btn-secondary:hover i {
-      padding-left: 5px; }
+      padding-left: 7px; }
 
 .btn-third {
   background-color: transparent;
@@ -5079,6 +5098,30 @@ readers do not read off random characters that represent icons */
     padding-bottom: 180px; } }
 
 @media screen and (max-width: 1920px) {
+  .passageiros section {
+    padding-left: 110px;
+    padding-right: 110px; }
+  .passageiros .section-bg1, .passageiros .section-bg3 {
+    margin-top: 160px;
+    background-color: #F74D49;
+    padding-top: 475px; }
+  .passageiros .btn {
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px auto; }
+  .passageiros .section1, .passageiros .section3 {
+    padding: 0;
+    width: 100%;
+    border-bottom-right-radius: 50px; }
+    .passageiros .section1 .aux1, .passageiros .section3 .aux1 {
+      padding: 70px 30px 30px 90px; }
+    .passageiros .section1 h1, .passageiros .section3 h1 {
+      color: #472E99; }
+      .passageiros .section1 h1 span, .passageiros .section3 h1 span {
+        color: rgba(71, 46, 153, 0.5); } }
+
+@media screen and (max-width: 1920px) {
   .index .section1 .bg-purple {
     margin-left: 91px; } }
 
@@ -5417,6 +5460,20 @@ readers do not read off random characters that represent icons */
       line-height: 36px; }
   .motoristas .section-bg4 {
     padding-bottom: 0; }
+  .passageiros .btn {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .passageiros .section1 .aux1 {
+    padding: 0; }
+    .passageiros .section1 .aux1 h1 {
+      padding-top: 30px;
+      padding-left: 25px;
+      padding-right: 0; }
+    .passageiros .section1 .aux1 .btn {
+      margin-left: 20px;
+      margin-right: 20px; }
   footer {
     padding-top: 60px !important; }
     footer .text-align-end {

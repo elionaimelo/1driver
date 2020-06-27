@@ -196,11 +196,31 @@
     .section-bg4 {
       padding-bottom: 0;
     }
+  }
+  //fim motoristas
 
-    
+  .passageiros {
+    .btn {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .section1 {
+      .aux1 {
+        padding: 0;
+        h1 {
+          padding-top: 30px;
+          padding-left: 25px;
+          padding-right: 0;
+        }
 
-    
-
+        .btn {
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+      }
+    }
   }
 
 

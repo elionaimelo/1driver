@@ -30,7 +30,7 @@ body {
 
 .overflow-hidden { overflow: hidden; }
 
-a {
+a , button {
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -108,7 +108,9 @@ h3 {
 .section5 ,
 .section7 ,
 .motoristas .section1 ,
-.motoristas .section3
+.motoristas .section3,
+.passageiros .section1,
+.passageiros .section3
 {
   background-color: white;
   border-radius: 50px;
@@ -121,6 +123,17 @@ h3 {
   margin-top: 50px;
   box-shadow: 0px 20px 30px rgba(71, 46, 153, 0.1);
   color: #655D7E;
+
+  h1 {
+    padding-right:138px;
+    margin-top: 30px;
+    color: $roxo;
+
+    span {
+      color:rgba($roxo, .5);
+    }
+  }
+
 }
 
 

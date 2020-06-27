@@ -51,15 +51,16 @@
 
   &:hover {
     background-color: $lilas !important;
+    color: $roxoMaisEscuro;
     border-color: transparent;
 
     span {
-      margin-left: $btn-recuo-animacao;
+      margin-left: $btn-recuo-animacao + 5px;
       padding-right: 5px;
     }
 
     i {
-      padding-left: 5px;
+      padding-left: 7px;
     }
   }
 }
