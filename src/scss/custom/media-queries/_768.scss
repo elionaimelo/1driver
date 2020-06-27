@@ -31,6 +31,7 @@
 
   .index {
     .section1 {
+
       .bg-purple {
         overflow: hidden;
         min-height: 200px;
@@ -147,8 +148,16 @@
  
   .motoristas {
 
+    .section-bg1 {
+      margin-top: 0;
+      padding-top: 90px;
+      padding-bottom: 55px;
+    }
+
     .btn {
       width: auto;
+      padding-left: 40px;
+      padding-right: 40px;
     }
 
     .section1
@@ -160,6 +169,7 @@
 
     .section1 {
       position: relative;
+      margin-bottom: 80px;
       padding-bottom: 0;
       border-bottom-left-radius: 0;
 
@@ -167,10 +177,6 @@
         padding-left: 50px;
         padding-top: 40px;
       }
-    }
-
-    .section-bg1 {
-      padding-top: 0;
     }
 
     .timeline1 {
@@ -182,6 +188,26 @@
         margin-top: 0;
       }
 
+    }
+
+    .section3 {
+      position: relative;
+      .txt1 {
+        padding-right: 0;
+      }
+    }
+
+    .section-bg4 {
+     padding-top: 0;
+     padding-bottom: 40px;
+
+     .info1 {
+       margin-top: 50px;
+     }
+     .info2,
+     .info3 {
+       margin-top: 0;
+     }
     }
 
   }

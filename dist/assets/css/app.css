@@ -5252,26 +5252,43 @@ readers do not read off random characters that represent icons */
       margin-bottom: 10px; }
     .index footer .social {
       margin-bottom: 50px; }
+  .motoristas .section-bg1, .motoristas .section-bg3 {
+    margin-top: 0;
+    padding-top: 90px;
+    padding-bottom: 55px; }
   .motoristas .btn {
-    width: auto; }
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px; }
   .motoristas .section1 {
     padding: 0;
     padding-top: 20px;
     padding-bottom: 20px; }
   .motoristas .section1 {
     position: relative;
+    margin-bottom: 80px;
     padding-bottom: 0;
     border-bottom-left-radius: 0; }
     .motoristas .section1 .aux1 {
       padding-left: 50px;
       padding-top: 40px; }
-  .motoristas .section-bg1, .motoristas .section-bg3 {
-    padding-top: 0; }
   .motoristas .timeline1 {
     padding-top: 0; }
     .motoristas .timeline1 .info1,
     .motoristas .timeline1 .info2,
     .motoristas .timeline1 .info3 {
+      margin-top: 0; }
+  .motoristas .section3 {
+    position: relative; }
+    .motoristas .section3 .txt1 {
+      padding-right: 0; }
+  .motoristas .section-bg4 {
+    padding-top: 0;
+    padding-bottom: 40px; }
+    .motoristas .section-bg4 .info1 {
+      margin-top: 50px; }
+    .motoristas .section-bg4 .info2,
+    .motoristas .section-bg4 .info3 {
       margin-top: 0; } }
 
 @media screen and (max-width: 600px) {
@@ -5282,6 +5299,8 @@ readers do not read off random characters that represent icons */
     padding-left: 0; }
     #header .navbar1 {
       margin-left: 0px; }
+  .index .btn {
+    width: auto; }
   .index .section2,
   .index .section3,
   .index .section4,
@@ -5336,6 +5355,9 @@ readers do not read off random characters that represent icons */
     .index .section5 h1,
     .index .section7 h1 {
       padding-right: 0px; }
+  .index .section6 h1 {
+    padding-right: 0;
+    margin: 30px auto; }
   .index .section-bg2 {
     padding-top: 60px;
     padding-bottom: 160px; }
@@ -5345,13 +5367,43 @@ readers do not read off random characters that represent icons */
   .index .section8 img {
     margin-top: 60px;
     margin-bottom: 60px; }
-  .index footer {
-    padding-top: 60px; }
-    .index footer .buttons-menu a {
+  .index .text-align-end {
+    text-align: end; }
+  .motoristas .btn {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .motoristas section,
+  .motoristas .section1,
+  .motoristas .timeline1,
+  .motoristas .section3,
+  .motoristas .timeline2,
+  .motoristas footer {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .motoristas .section1 .aux1 {
+    padding: 0; }
+    .motoristas .section1 .aux1 h1 {
+      padding-top: 30px;
+      padding-left: 25px; }
+    .motoristas .section1 .aux1 .btn {
+      margin-left: 20px;
+      margin-right: 20px; }
+  .motoristas .section3 {
+    position: relative; }
+    .motoristas .section3 .btn {
+      margin-left: 20px;
+      margin-right: 20px; }
+    .motoristas .section3 .txt1, .motoristas .section3 .txt2 {
+      padding-left: 20px;
+      padding-right: 20px;
+      line-height: 36px; }
+  footer {
+    padding-top: 60px !important; }
+    footer .buttons-menu a {
       margin-bottom: 10px; }
-    .index footer .buttons-menu .btn-primary, .index footer .buttons-menu .btn-four {
+    footer .buttons-menu .btn-primary, footer .buttons-menu .btn-four {
       margin-right: 0; }
-    .index footer .shop img {
+    footer .shop img {
       margin-bottom: 10px; }
-    .index footer .social {
+    footer .social {
       margin-bottom: 50px; } }
