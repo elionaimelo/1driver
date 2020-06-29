@@ -4898,8 +4898,6 @@ readers do not read off random characters that represent icons */
   .index .section3 .btn-floating {
     z-index: 10;
     margin-top: -30px;
-    padding-left: 50px;
-    padding-right: 50px;
     margin-left: 131px; }
   .index .section3 .box-white {
     background-color: white;
@@ -5269,6 +5267,29 @@ readers do not read off random characters that represent icons */
   to {
     width: 0;
     background: transparent; } }
+
+html, body {
+  height: 100%; }
+
+.escolha .container-fluid {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.escolha .arrow-left {
+  margin: 60px;
+  -ms-flex: 0.37;
+      flex: 0.37; }
+
+.escolha h1 .highlight {
+  color: #A69AD0; }
+
+.escolha .box-choice img {
+  margin-left: -20px; }
+
+.escolha .text-red {
+  color: #F74D49; }
+  .escolha .text-red .highlight {
+    color: rgba(247, 77, 73, 0.6); }
 
 @media screen and (max-width: 1920px) {
   .index .section1 .bg-purple {
@@ -5691,6 +5712,10 @@ readers do not read off random characters that represent icons */
       width: 100%; }
   .passageiros .section8 .btn {
     width: auto; }
+  .escolha .arrow-left {
+    margin: 30px 0 0 20px; }
+  .escolha .box-choice {
+    padding-bottom: 40px; }
   footer {
     padding: 0;
     padding-top: 60px !important; }

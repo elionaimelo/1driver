@@ -262,6 +262,15 @@
 
   //fim passageiros
 
+  .escolha {
+    .arrow-left {
+      margin: 30px 0 0 20px;
+    }
+
+    .box-choice {
+      padding-bottom: 40px;
+    }
+  }
 
 
   footer {
@@ -292,5 +301,7 @@
       margin-bottom: 50px;
     }
   } 
+
+  //fim footer
 
 }

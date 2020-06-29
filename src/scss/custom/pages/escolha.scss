@@ -1,0 +1,38 @@
+
+html,body {
+  height: 100%;
+}
+.escolha {
+
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .arrow-left {
+    margin: 60px;
+    flex: 0.37;
+  }
+
+  h1 {
+    .highlight {
+      color: $highlightRoxo;
+    }
+  }
+
+  .box-choice {
+    img {
+      margin-left: -20px;
+    }
+  }
+
+  .text-red {
+    color: $vermelho;
+
+    .highlight {
+      color: rgba($vermelho, $alpha: 0.6);
+    }
+  }
+
+
+}
