@@ -26,16 +26,20 @@ body {
 .overflow-hidden {
   overflow: hidden; }
 
-a, button {
+a,
+button {
   text-decoration: none;
   transition: all 0.2s ease-in-out; }
-  a span, button span {
+  a span,
+  button span {
     transition: all 0.2s ease-in-out; }
-  a i, button i {
+  a i,
+  button i {
     transition: all 0.2s ease-in-out;
     font-size: 15px;
     margin-left: 6px; }
-  a:hover, button:hover {
+  a:hover,
+  button:hover {
     text-decoration: none;
     color: #3D2885 !important; }
 
@@ -89,7 +93,7 @@ h3 {
   z-index: 2;
   margin-top: 50px;
   box-shadow: 0px 20px 30px rgba(71, 46, 153, 0.1);
-  color: #655D7E; }
+  color: #655d7e; }
   .section5 h1,
   .section7 h1,
   .motoristas .section1 h1,
@@ -122,6 +126,142 @@ h3 {
   min-height: 200px;
   padding-top: 300px;
   padding-bottom: 505px; }
+
+.form-search,
+.form-registration {
+  position: relative;
+  z-index: 2;
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  /* estilo do input ------------------------------- */
+  /* LABEL ======================================= */
+  /* active  */
+  /* linha ================================= */
+  /* active linha */
+  /* HIGHLIGHT ================================== */
+  /* active */ }
+  .form-search::after,
+  .form-registration::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    opacity: 0.8;
+    z-index: 3; }
+  .form-search > form,
+  .form-registration > form {
+    z-index: 4;
+    position: relative;
+    padding: 0px 10px;
+    width: 100%; }
+  .form-search .group,
+  .form-registration .group {
+    position: relative;
+    margin-bottom: 45px; }
+  .form-search .group input,
+  .form-registration .group input {
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #989898;
+    background: none;
+    color: #472E99; }
+  .form-search .group input:focus,
+  .form-registration .group input:focus {
+    outline: none; }
+  .form-search .group label,
+  .form-registration .group label {
+    color: #655D7E;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 5px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all; }
+  .form-search .group input:focus ~ label,
+  .form-search input:valid ~ label,
+  .form-registration .group input:focus ~ label,
+  .form-registration input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #655D7E; }
+  .form-search .bar,
+  .form-registration .bar {
+    position: relative;
+    display: block;
+    width: 100%; }
+  .form-search .bar:before,
+  .form-search .bar:after,
+  .form-registration .bar:before,
+  .form-registration .bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #f74d49;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all; }
+  .form-search .bar:before,
+  .form-registration .bar:before {
+    left: 50%; }
+  .form-search .bar:after,
+  .form-registration .bar:after {
+    right: 50%; }
+  .form-search .group input:focus ~ .bar:before,
+  .form-search .group input:focus ~ .bar:after,
+  .form-registration .group input:focus ~ .bar:before,
+  .form-registration .group input:focus ~ .bar:after {
+    width: 50%; }
+  .form-search .login-card .highlight,
+  .form-registration .login-card .highlight {
+    position: absolute;
+    height: 0%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5; }
+  .form-search .group input:focus ~ .highlight,
+  .form-registration .group input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease; }
+  .form-search .span-input,
+  .form-registration .span-input {
+    margin-left: 10px;
+    position: relative;
+    top: 0px; }
+
+.button-remove-border {
+  border: none !important;
+  color: #655D7E !important; }
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: rgba(255, 255, 255, 0.7); }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@keyframes inputHighlighter {
+  from {
+    background: rgba(255, 255, 255, 0.7); }
+  to {
+    width: 0;
+    background: transparent; } }
 
 .btn-primary, .btn-four,
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -5158,116 +5298,6 @@ readers do not read off random characters that represent icons */
         color: #655D7E;
         font-weight: 400; } }
 
-.form-search {
-  position: relative;
-  z-index: 2;
-  padding: 0;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  /* estilo do input ------------------------------- */
-  /* LABEL ======================================= */
-  /* active  */
-  /* linha ================================= */
-  /* active linha */
-  /* HIGHLIGHT ================================== */
-  /* active */ }
-  .form-search::after {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    opacity: 0.8;
-    z-index: 3; }
-  .form-search > form {
-    z-index: 4;
-    position: relative;
-    padding: 0px 10px;
-    width: 100%; }
-  .form-search .group {
-    position: relative;
-    margin-bottom: 45px; }
-  .form-search .group input {
-    font-size: 18px;
-    padding: 10px 10px 10px 10px;
-    display: block;
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #989898;
-    background: none;
-    color: #eee; }
-  .form-search .group input:focus {
-    outline: none; }
-  .form-search .group label {
-    color: #655D7E;
-    font-size: 18px;
-    font-weight: normal;
-    position: absolute;
-    pointer-events: none;
-    left: 5px;
-    top: 5px;
-    transition: 0.2s ease all;
-    -moz-transition: 0.2s ease all;
-    -webkit-transition: 0.2s ease all; }
-  .form-search .group input:focus ~ label, .form-search input:valid ~ label {
-    top: -20px;
-    font-size: 14px;
-    color: #655D7E; }
-  .form-search .bar {
-    position: relative;
-    display: block;
-    width: 100%; }
-  .form-search .bar:before, .form-search .bar:after {
-    content: '';
-    height: 2px;
-    width: 0;
-    bottom: 1px;
-    position: absolute;
-    background: #F74D49;
-    transition: 0.2s ease all;
-    -moz-transition: 0.2s ease all;
-    -webkit-transition: 0.2s ease all; }
-  .form-search .bar:before {
-    left: 50%; }
-  .form-search .bar:after {
-    right: 50%; }
-  .form-search .group input:focus ~ .bar:before, .form-search .group input:focus ~ .bar:after {
-    width: 50%; }
-  .form-search .login-card .highlight {
-    position: absolute;
-    height: 0%;
-    width: 100px;
-    top: 25%;
-    left: 0;
-    pointer-events: none;
-    opacity: 0.5; }
-  .form-search .group input:focus ~ .highlight {
-    -webkit-animation: inputHighlighter 0.3s ease;
-    animation: inputHighlighter 0.3s ease; }
-  .form-search .span-input {
-    margin-left: 10px;
-    position: relative;
-    top: 0px; }
-
-@-webkit-keyframes inputHighlighter {
-  from {
-    background: rgba(255, 255, 255, 0.7); }
-  to {
-    width: 0;
-    background: transparent; } }
-
-@keyframes inputHighlighter {
-  from {
-    background: rgba(255, 255, 255, 0.7); }
-  to {
-    width: 0;
-    background: transparent; } }
-
 html, body {
   height: 100%; }
 
@@ -5283,13 +5313,58 @@ html, body {
 .escolha h1 .highlight {
   color: #A69AD0; }
 
-.escolha .box-choice img {
-  margin-left: -20px; }
+.escolha .box-choice {
+  padding: 10px 30px 20px 30px; }
+  .escolha .box-choice:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 42px 3px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 20px; }
+  .escolha .box-choice img {
+    margin-left: -20px; }
 
 .escolha .text-red {
   color: #F74D49; }
   .escolha .text-red .highlight {
     color: rgba(247, 77, 73, 0.6); }
+
+.cadastro-motorista .container-fluid {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.cadastro-motorista .arrow-left {
+  margin: 60px;
+  -ms-flex: 0.37;
+      flex: 0.37; }
+
+.cadastro-motorista h1 .highlight {
+  color: #A69AD0; }
+
+.cadastro-motorista .box-choice {
+  padding: 10px 30px 20px 30px; }
+  .cadastro-motorista .box-choice:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 42px 3px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 20px; }
+  .cadastro-motorista .box-choice img {
+    margin-left: -20px; }
+  .cadastro-motorista .box-choice p {
+    font-size: 1.5rem; }
+
+.cadastro-motorista p.check {
+  color: #989898;
+  font-size: 16px !important;
+  margin-bottom: 50px; }
+  .cadastro-motorista p.check a {
+    color: #989898;
+    text-decoration: underline; }
+
+.cadastro-motorista .text-red {
+  color: #F74D49; }
+  .cadastro-motorista .text-red .highlight {
+    color: rgba(247, 77, 73, 0.6); }
+
+.cadastro-motorista .remove-hover:hover {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important; }
 
 @media screen and (max-width: 1920px) {
   .index .section1 .bg-purple {
@@ -5565,7 +5640,11 @@ html, body {
   footer .btn-four {
     padding-left: 0;
     padding-right: 0;
-    margin-right: 0 !important; } }
+    margin-right: 0 !important; }
+  .cadastro-motorista form {
+    margin-top: 60px; }
+    .cadastro-motorista form .btn {
+      width: 100%; } }
 
 @media screen and (max-width: 600px) {
   .container-fluid {
@@ -5713,7 +5792,7 @@ html, body {
   .passageiros .section8 .btn {
     width: auto; }
   .escolha .arrow-left {
-    margin: 30px 0 0 20px; }
+    margin: 25px 25px 0; }
   .escolha .box-choice {
     padding-bottom: 40px; }
   footer {
@@ -5728,4 +5807,6 @@ html, body {
     footer .shop img {
       margin-bottom: 10px; }
     footer .social {
-      margin-bottom: 50px; } }
+      margin-bottom: 50px; }
+  .cadastro-motorista .arrow-left {
+    margin: 25px 25px 0; } }

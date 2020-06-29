@@ -264,7 +264,7 @@
 
   .escolha {
     .arrow-left {
-      margin: 30px 0 0 20px;
+      margin: 25px 25px 0;
     }
 
     .box-choice {
@@ -303,5 +303,11 @@
   } 
 
   //fim footer
+
+  .cadastro-motorista {
+    .arrow-left {
+      margin: 25px 25px 0;
+    }
+  }
 
 }

@@ -1,1 +1,3 @@
-console.log('bla appjs');
+function goBack() {
+  window.history.back();
+}
