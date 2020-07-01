@@ -82,7 +82,8 @@ h3 {
 .motoristas .section1,
 .motoristas .section3,
 .passageiros .section1,
-.passageiros .section3 {
+.passageiros .section3,
+.fale-conosco .section1 {
   background-color: white;
   border-radius: 50px;
   padding-top: 80px;
@@ -99,7 +100,8 @@ h3 {
   .motoristas .section1 h1,
   .motoristas .section3 h1,
   .passageiros .section1 h1,
-  .passageiros .section3 h1 {
+  .passageiros .section3 h1,
+  .fale-conosco .section1 h1 {
     padding-right: 138px;
     margin-top: 30px;
     color: #472E99; }
@@ -108,7 +110,8 @@ h3 {
     .motoristas .section1 h1 span,
     .motoristas .section3 h1 span,
     .passageiros .section1 h1 span,
-    .passageiros .section3 h1 span {
+    .passageiros .section3 h1 span,
+    .fale-conosco .section1 h1 span {
       color: rgba(71, 46, 153, 0.5); }
 
 .section-bg2 {
@@ -129,7 +132,8 @@ h3 {
 
 .form-search,
 .form-registration,
-.form-login {
+.form-login,
+.form-faleConosco {
   position: relative;
   z-index: 2;
   padding: 0;
@@ -148,7 +152,8 @@ h3 {
   /* active */ }
   .form-search::after,
   .form-registration::after,
-  .form-login::after {
+  .form-login::after,
+  .form-faleConosco::after {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -159,34 +164,53 @@ h3 {
     z-index: 3; }
   .form-search > form,
   .form-registration > form,
-  .form-login > form {
+  .form-login > form,
+  .form-faleConosco > form {
     z-index: 4;
     position: relative;
     padding: 0px 10px;
     width: 100%; }
   .form-search .group,
   .form-registration .group,
-  .form-login .group {
+  .form-login .group,
+  .form-faleConosco .group {
     position: relative;
     margin-bottom: 45px; }
   .form-search .group input,
+  .form-search .group textarea,
   .form-registration .group input,
-  .form-login .group input {
-    font-size: 18px;
+  .form-registration .group textarea,
+  .form-login .group input,
+  .form-login .group textarea,
+  .form-faleConosco .group input,
+  .form-faleConosco .group textarea {
     padding: 10px 10px 10px 10px;
     display: block;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #989898;
+    border-bottom: 1px solid #D4CBF0;
     background: none;
     color: #472E99; }
   .form-search .group input:focus,
+  .form-search .group textarea:focus,
   .form-registration .group input:focus,
-  .form-login .group input:focus {
+  .form-registration .group textarea:focus,
+  .form-login .group input:focus,
+  .form-login .group textarea:focus,
+  .form-faleConosco .group input:focus,
+  .form-faleConosco .group textarea:focus {
     outline: none; }
+  .form-search .group textarea,
+  .form-registration .group textarea,
+  .form-login .group textarea,
+  .form-faleConosco .group textarea {
+    resize: none;
+    overflow-y: hidden;
+    line-height: normal; }
   .form-search .group label,
   .form-registration .group label,
-  .form-login .group label {
+  .form-login .group label,
+  .form-faleConosco .group label {
     color: #655D7E;
     font-size: 18px;
     font-weight: normal;
@@ -198,17 +222,28 @@ h3 {
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all; }
   .form-search .group input:focus ~ label,
+  .form-search .group textarea:focus ~ label,
   .form-search input:valid ~ label,
+  .form-search textarea:valid ~ label,
   .form-registration .group input:focus ~ label,
+  .form-registration .group textarea:focus ~ label,
   .form-registration input:valid ~ label,
+  .form-registration textarea:valid ~ label,
   .form-login .group input:focus ~ label,
-  .form-login input:valid ~ label {
+  .form-login .group textarea:focus ~ label,
+  .form-login input:valid ~ label,
+  .form-login textarea:valid ~ label,
+  .form-faleConosco .group input:focus ~ label,
+  .form-faleConosco .group textarea:focus ~ label,
+  .form-faleConosco input:valid ~ label,
+  .form-faleConosco textarea:valid ~ label {
     top: -20px;
     font-size: 14px;
     color: #655D7E; }
   .form-search .bar,
   .form-registration .bar,
-  .form-login .bar {
+  .form-login .bar,
+  .form-faleConosco .bar {
     position: relative;
     display: block;
     width: 100%; }
@@ -217,7 +252,9 @@ h3 {
   .form-registration .bar:before,
   .form-registration .bar:after,
   .form-login .bar:before,
-  .form-login .bar:after {
+  .form-login .bar:after,
+  .form-faleConosco .bar:before,
+  .form-faleConosco .bar:after {
     content: "";
     height: 2px;
     width: 0;
@@ -229,22 +266,35 @@ h3 {
     -webkit-transition: 0.2s ease all; }
   .form-search .bar:before,
   .form-registration .bar:before,
-  .form-login .bar:before {
+  .form-login .bar:before,
+  .form-faleConosco .bar:before {
     left: 50%; }
   .form-search .bar:after,
   .form-registration .bar:after,
-  .form-login .bar:after {
+  .form-login .bar:after,
+  .form-faleConosco .bar:after {
     right: 50%; }
   .form-search .group input:focus ~ .bar:before,
+  .form-search .group textarea:focus ~ .bar:before,
   .form-search .group input:focus ~ .bar:after,
+  .form-search .group textarea:focus ~ .bar:after,
   .form-registration .group input:focus ~ .bar:before,
+  .form-registration .group textarea:focus ~ .bar:before,
   .form-registration .group input:focus ~ .bar:after,
+  .form-registration .group textarea:focus ~ .bar:after,
   .form-login .group input:focus ~ .bar:before,
-  .form-login .group input:focus ~ .bar:after {
+  .form-login .group textarea:focus ~ .bar:before,
+  .form-login .group input:focus ~ .bar:after,
+  .form-login .group textarea:focus ~ .bar:after,
+  .form-faleConosco .group input:focus ~ .bar:before,
+  .form-faleConosco .group textarea:focus ~ .bar:before,
+  .form-faleConosco .group input:focus ~ .bar:after,
+  .form-faleConosco .group textarea:focus ~ .bar:after {
     width: 50%; }
-  .form-search .login-card .highlight,
-  .form-registration .login-card .highlight,
-  .form-login .login-card .highlight {
+  .form-search .highlight,
+  .form-registration .highlight,
+  .form-login .highlight,
+  .form-faleConosco .highlight {
     position: absolute;
     height: 0%;
     width: 100px;
@@ -254,13 +304,21 @@ h3 {
     opacity: 0.5; }
   .form-search .group input:focus ~ .highlight,
   .form-registration .group input:focus ~ .highlight,
-  .form-login .group input:focus ~ .highlight {
+  .form-login .group input:focus ~ .highlight,
+  .form-faleConosco .group input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease; }
+  .form-search .group textarea:focus ~ .highlight,
+  .form-registration .group textarea:focus ~ .highlight,
+  .form-login .group textarea:focus ~ .highlight,
+  .form-faleConosco .group textarea:focus ~ .highlight {
     -webkit-animation: inputHighlighter 0.3s ease;
     animation: inputHighlighter 0.3s ease; }
   .form-search .span-input,
   .form-registration .span-input,
-  .form-login .span-input {
-    margin-left: 10px;
+  .form-login .span-input,
+  .form-faleConosco .span-input {
+    margin-left: 0px;
     position: relative;
     top: 0px; }
 
@@ -281,6 +339,12 @@ h3 {
   to {
     width: 0;
     background: transparent; } }
+
+.active {
+  background-color: #F2F2F2;
+  border-radius: 30px; }
+  .active a {
+    color: #472E99 !important; }
 
 .btn-primary, .btn-four,
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -5428,6 +5492,21 @@ html, body {
   .login .btn:first-child {
     margin-top: 30px; }
 
+.fale-conosco h1 {
+  margin-bottom: 60px; }
+
+.fale-conosco .section-bg1, .fale-conosco .section-bg3 {
+  margin-top: 350px;
+  padding-bottom: 580px; }
+
+.fale-conosco .form-faleConosco {
+  margin-top: 60px;
+  display: initial; }
+  .fale-conosco .form-faleConosco .btn {
+    width: 210px !important; }
+    .fale-conosco .form-faleConosco .btn i {
+      color: #F74D49; }
+
 @media screen and (max-width: 1920px) {
   .index .section1 .bg-purple {
     margin-left: 91px; } }
@@ -5706,7 +5785,11 @@ html, body {
   .cadastro-motorista form {
     margin-top: 60px; }
     .cadastro-motorista form .btn {
-      width: 100%; } }
+      width: 100%; }
+  .fale-conosco .section1 .aux1 h1 {
+    padding: 0 110px; }
+  .fale-conosco .section1 .btn {
+    width: 100% !important; } }
 
 @media screen and (max-width: 600px) {
   .container-fluid {
@@ -5871,4 +5954,8 @@ html, body {
     footer .social {
       margin-bottom: 50px; }
   .cadastro-motorista .arrow-left {
-    margin: 25px 25px 0; } }
+    margin: 25px 25px 0; }
+  .fale-conosco .section1 {
+    padding: 60px 30px; }
+    .fale-conosco .section1 .aux1 h1 {
+      padding: 0 20px; } }
