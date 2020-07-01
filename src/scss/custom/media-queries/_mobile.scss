@@ -322,4 +322,20 @@
     }
   }
 
+  .politica-privacidade {
+    .section1 {
+      padding: 60px 30px;
+      position: relative;
+
+      h1 {
+        padding-right: 0;
+      }
+    }
+    .section-bg1 {
+      min-height: 200px;
+      padding-bottom: 0;
+      background-color: transparent !important;
+    }
+  }
+
 }
