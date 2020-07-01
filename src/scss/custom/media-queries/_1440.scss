@@ -139,6 +139,12 @@
 
   // página de motorista
   .motoristas {
+
+    .section1 {
+      .aux1 {
+        padding-top: 30px;
+      }
+    }
     
     .section-bg1 {
       margin-top: 240px;
@@ -161,7 +167,7 @@
     }
 
     .timeline2 {
-      padding-top: 14px;
+      padding-top: 65px;
       padding-left: $general-padding-left - 30px;
       padding-right: $general-padding-left - 30px;
     }

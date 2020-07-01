@@ -77,6 +77,9 @@ h3 {
   padding-bottom: 288px;
   margin-top: -215px; }
 
+.form-check-label {
+  font-size: 18px !important; }
+
 .section5,
 .section7,
 .motoristas .section1,
@@ -191,7 +194,7 @@ h3 {
     display: block;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #D4CBF0;
+    border-bottom: 1px solid #d4cbf0;
     background: none;
     color: #472E99; }
   .form-search .group input:focus,
@@ -327,7 +330,7 @@ h3 {
 
 .button-remove-border {
   border: none !important;
-  color: #655D7E !important; }
+  color: #655d7e !important; }
 
 @-webkit-keyframes inputHighlighter {
   from {
@@ -344,18 +347,12 @@ h3 {
     background: transparent; } }
 
 .active {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 30px; }
   .active a {
-    color: #472E99 !important; }
+    color: #472e99 !important; }
 
-.btn-primary, .btn-four,
-.btn-four.active:not(:disabled):not(.disabled),
-.btn-four:not(:disabled):not(.disabled):active,
-.btn-primary:not(:disabled):not(.disabled).active,
-.btn-four:not(:disabled):not(.disabled).active,
-.btn-primary:not(:disabled):not(.disabled):active,
-.btn-four:not(:disabled):not(.disabled):active {
+.btn-primary, .btn-four {
   background-color: #F74D49;
   color: white;
   border-radius: 30px;
@@ -365,44 +362,25 @@ h3 {
   border: none;
   width: 230px;
   border-color: transparent; }
-  .btn-primary i, .btn-four i, .btn-four.active:not(:disabled):not(.disabled) i, .btn-four:not(:disabled):not(.disabled):active i,
-  .btn-primary:not(:disabled):not(.disabled).active i,
-  .btn-four:not(:disabled):not(.disabled).active i,
-  .btn-primary:not(:disabled):not(.disabled):active i,
-  .btn-four:not(:disabled):not(.disabled):active i {
+  .btn-primary:focus, .btn-four:focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-four:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .btn-four:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle,
+  .show > .dropdown-toggle.btn-four {
+    background-color: #F74D49;
+    box-shadow: none; }
+  .btn-primary i, .btn-four i {
     color: #F0DC26; }
-  .btn-primary span, .btn-four span, .btn-four.active:not(:disabled):not(.disabled) span, .btn-four:not(:disabled):not(.disabled):active span,
-  .btn-primary:not(:disabled):not(.disabled).active span,
-  .btn-four:not(:disabled):not(.disabled).active span,
-  .btn-primary:not(:disabled):not(.disabled):active span,
-  .btn-four:not(:disabled):not(.disabled):active span {
+  .btn-primary span, .btn-four span {
     padding-left: 5px; }
-  .btn-primary:hover, .btn-four:hover,
-  .btn-four.active:hover:not(:disabled):not(.disabled),
-  .btn-four:hover:not(:disabled):not(.disabled):active,
-  .btn-primary:not(:disabled):not(.disabled).active:hover,
-  .btn-four:not(:disabled):not(.disabled).active:hover,
-  .btn-primary:not(:disabled):not(.disabled):active:hover,
-  .btn-four:not(:disabled):not(.disabled):active:hover {
+  .btn-primary:hover, .btn-four:hover {
     color: #F0DC26 !important;
     background-color: #F74D49; }
-    .btn-primary:hover span, .btn-four:hover span, .btn-four.active:hover:not(:disabled):not(.disabled) span, .btn-four:hover:not(:disabled):not(.disabled):active span,
-    .btn-primary:not(:disabled):not(.disabled).active:hover span,
-    .btn-four:not(:disabled):not(.disabled).active:hover span,
-    .btn-primary:not(:disabled):not(.disabled):active:hover span,
-    .btn-four:not(:disabled):not(.disabled):active:hover span {
+    .btn-primary:hover span, .btn-four:hover span {
       margin-left: -5px; }
-    .btn-primary:hover i, .btn-four:hover i, .btn-four.active:hover:not(:disabled):not(.disabled) i, .btn-four:hover:not(:disabled):not(.disabled):active i,
-    .btn-primary:not(:disabled):not(.disabled).active:hover i,
-    .btn-four:not(:disabled):not(.disabled).active:hover i,
-    .btn-primary:not(:disabled):not(.disabled):active:hover i,
-    .btn-four:not(:disabled):not(.disabled):active:hover i {
+    .btn-primary:hover i, .btn-four:hover i {
       color: white;
       padding-left: 10px; }
 
-.btn-secondary,
-.btn-secondary:not(:disabled):not(.disabled).active,
-.btn-secondary:not(:disabled):not(.disabled):active {
+.btn-secondary, .btn-five, .btn-six {
   background-color: white;
   border: 1px solid #F5F2FF;
   border-radius: 30px;
@@ -411,29 +389,25 @@ h3 {
   font-weight: 500;
   font-size: 18px;
   width: 230px; }
-  .btn-secondary i,
-  .btn-secondary:not(:disabled):not(.disabled).active i,
-  .btn-secondary:not(:disabled):not(.disabled):active i {
+  .btn-secondary:focus, .btn-five:focus, .btn-six:focus, .btn-secondary:not(:disabled):not(.disabled):active, .btn-five:not(:disabled):not(.disabled):active, .btn-six:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .btn-five:not(:disabled):not(.disabled).active, .btn-six:not(:disabled):not(.disabled).active,
+  .show > .btn-secondary.dropdown-toggle,
+  .show > .dropdown-toggle.btn-five,
+  .show > .dropdown-toggle.btn-six {
+    background-color: white;
+    box-shadow: none; }
+  .btn-secondary i, .btn-five i, .btn-six i {
     color: #F74D49; }
-  .btn-secondary:hover,
-  .btn-secondary:not(:disabled):not(.disabled).active:hover,
-  .btn-secondary:not(:disabled):not(.disabled):active:hover {
+  .btn-secondary:hover, .btn-five:hover, .btn-six:hover {
     background-color: #F5F2FF !important;
     color: #3D2885;
     border-color: transparent; }
-    .btn-secondary:hover span,
-    .btn-secondary:not(:disabled):not(.disabled).active:hover span,
-    .btn-secondary:not(:disabled):not(.disabled):active:hover span {
+    .btn-secondary:hover span, .btn-five:hover span, .btn-six:hover span {
       margin-left: 0px;
       padding-right: 5px; }
-    .btn-secondary:hover i,
-    .btn-secondary:not(:disabled):not(.disabled).active:hover i,
-    .btn-secondary:not(:disabled):not(.disabled):active:hover i {
+    .btn-secondary:hover i, .btn-five:hover i, .btn-six:hover i {
       padding-left: 7px; }
 
-.btn-third,
-.btn-third:not(:disabled):not(.disabled).active,
-.btn-third:not(:disabled):not(.disabled):active {
+.btn-third {
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
   color: white;
@@ -442,37 +416,39 @@ h3 {
   font-weight: 500;
   width: 260px;
   font-size: 18px; }
-  .btn-third i,
-  .btn-third:not(:disabled):not(.disabled).active i,
-  .btn-third:not(:disabled):not(.disabled):active i {
+  .btn-third:focus, .btn-third:not(:disabled):not(.disabled):active, .btn-third:not(:disabled):not(.disabled).active,
+  .show > .btn-third.dropdown-toggle {
+    background-color: transparent;
+    box-shadow: none; }
+  .btn-third i {
     color: #F0DC26; }
-  .btn-third:hover,
-  .btn-third:not(:disabled):not(.disabled).active:hover,
-  .btn-third:not(:disabled):not(.disabled):active:hover {
+  .btn-third:hover {
     background-color: #e64845;
     color: white !important; }
-    .btn-third:hover span,
-    .btn-third:not(:disabled):not(.disabled).active:hover span,
-    .btn-third:not(:disabled):not(.disabled):active:hover span {
+    .btn-third:hover span {
       margin-left: -5px;
       padding-right: 5px; }
-    .btn-third:hover i,
-    .btn-third:not(:disabled):not(.disabled).active:hover i,
-    .btn-third:not(:disabled):not(.disabled):active:hover i {
+    .btn-third:hover i {
       padding-left: 5px; }
 
-.btn-four,
-.btn-four:not(:disabled):not(.disabled).active,
-.btn-four:not(:disabled):not(.disabled):active {
+.btn-four {
   background-color: white;
   width: auto !important;
   color: #472E99;
   border: 2px solid #f2f2f2; }
-  .btn-four:hover,
-  .btn-four:not(:disabled):not(.disabled).active:hover,
-  .btn-four:not(:disabled):not(.disabled):active:hover {
+  .btn-four:focus, .btn-four:not(:disabled):not(.disabled):active, .btn-four:not(:disabled):not(.disabled).active,
+  .show > .btn-four.dropdown-toggle {
+    background-color: white;
+    box-shadow: none; }
+  .btn-four:hover {
     background-color: #f2f2f2;
     color: #472E99 !important; }
+
+.btn-five {
+  border-color: #D4CBF0; }
+
+.btn-six {
+  border-color: #F74D49; }
 
 #header {
   padding-top: 20px;
@@ -508,14 +484,10 @@ footer {
         font-size: 30px; }
       footer .social a:not(:last-child) i {
         margin-right: 60px; }
-  footer .btn-primary, footer .btn-four,
-  footer .btn-four.active:not(:disabled):not(.disabled),
-  footer .btn-four:not(:disabled):not(.disabled):active {
+  footer .btn-primary, footer .btn-four {
     width: auto;
     padding: 10px 35px; }
-    footer .btn-primary:not(:last-child), footer .btn-four:not(:last-child),
-    footer .btn-four.active:not(:last-child):not(:disabled):not(.disabled),
-    footer .btn-four:not(:last-child):not(:disabled):not(.disabled):active {
+    footer .btn-primary:not(:last-child), footer .btn-four:not(:last-child) {
       margin-right: 20px; }
   footer .shop a:not(:last-child) {
     margin-right: 40px; }
@@ -532,6 +504,9 @@ footer {
     margin-right: 0; }
   footer p {
     margin-bottom: 75px; }
+    footer p a {
+      color: #655D7E;
+      display: inline-block; }
   footer .institucional {
     margin-top: 110px;
     font-size: 13px; }
@@ -5153,7 +5128,7 @@ readers do not read off random characters that represent icons */
   padding-left: 110px; }
   .index .section2 .txt-purple {
     margin-top: 90px;
-    padding-right: 150px;
+    padding-right: 96px;
     color: #472E99; }
     .index .section2 .txt-purple span {
       color: rgba(71, 46, 153, 0.5); }
@@ -5273,9 +5248,7 @@ readers do not read off random characters that represent icons */
   .motoristas .section-bg1, .motoristas .section-bg3 {
     margin-top: 290px;
     padding-bottom: 380px; }
-  .motoristas .btn-primary, .motoristas .btn-four,
-  .motoristas .btn-four.active:not(:disabled):not(.disabled),
-  .motoristas .btn-four:not(:disabled):not(.disabled):active {
+  .motoristas .btn-primary, .motoristas .btn-four {
     width: 350px;
     margin-top: 30px; }
   .motoristas .section1 {
@@ -5314,7 +5287,8 @@ readers do not read off random characters that represent icons */
     .motoristas .timeline2 .info2 p,
     .motoristas .timeline2 .info3 p {
       font-size: 1.5rem;
-      color: #655D7E; }
+      color: #655D7E;
+      margin-bottom: 52px; }
       .motoristas .timeline1 .info1 p span,
       .motoristas .timeline1 .info2 p span,
       .motoristas .timeline1 .info3 p span,
@@ -5379,11 +5353,11 @@ readers do not read off random characters that represent icons */
     background-color: #F74D49;
     padding-top: 505px;
     padding-bottom: 430px; }
+  .passageiros .form-search label img {
+    margin-right: 13px; }
   .passageiros .btn {
     margin: 20px auto; }
-  .passageiros .btn-primary, .passageiros .btn-four,
-  .passageiros .btn-four.active:not(:disabled):not(.disabled),
-  .passageiros .btn-four:not(:disabled):not(.disabled):active {
+  .passageiros .btn-primary, .passageiros .btn-four {
     width: 340px; }
   .passageiros .section1, .passageiros .section3 {
     padding: 0;
@@ -5461,6 +5435,61 @@ html, body {
   .escolha .text-red .highlight {
     color: rgba(247, 77, 73, 0.6); }
 
+.cadastro-motorista .radio label,
+.cadastro-passageiro .radio label {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 5px; }
+
+.cadastro-motorista .radio label::before,
+.cadastro-passageiro .radio label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  margin-left: -20px;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: border 0.15s ease-in-out; }
+
+.cadastro-motorista .radio label::after,
+.cadastro-passageiro .radio label::after {
+  display: inline-block;
+  position: absolute;
+  content: " ";
+  width: 11px;
+  height: 11px;
+  left: 3px;
+  top: 3px;
+  margin-left: -20px;
+  border-radius: 50%;
+  background-color: #555555;
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+  transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33), -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
+
+.cadastro-motorista .radio input[type="radio"],
+.cadastro-passageiro .radio input[type="radio"] {
+  opacity: 0;
+  z-index: 1; }
+
+.cadastro-motorista .radio input[type="radio"]:focus + label::before,
+.cadastro-passageiro .radio input[type="radio"]:focus + label::before {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+
+.cadastro-motorista .radio input[type="radio"]:checked + label::after,
+.cadastro-passageiro .radio input[type="radio"]:checked + label::after {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1); }
+
 .cadastro-motorista .bg-vermelho,
 .cadastro-passageiro .bg-vermelho {
   background-color: #F74D49; }
@@ -5498,6 +5527,10 @@ html, body {
   .cadastro-passageiro .box-choice p {
     font-size: 1.5rem; }
 
+.cadastro-motorista .radios,
+.cadastro-passageiro .radios {
+  margin-bottom: 35px; }
+
 .cadastro-motorista p.check,
 .cadastro-passageiro p.check {
   color: #989898;
@@ -5514,6 +5547,24 @@ html, body {
 
 .cadastro-passageiro .box-choice h1 .highlight {
   color: #F7BBBA; }
+
+.cadastro-passageiro .radio-danger input[type="radio"] + label::after {
+  background-color: #F74D49; }
+
+.cadastro-passageiro .radio-danger input[type="radio"]:checked + label::before {
+  border-color: #F74D49; }
+
+.cadastro-passageiro .radio-danger input[type="radio"]:checked + label::after {
+  background-color: #F74D49; }
+
+.cadastro-motorista .radio-danger input[type="radio"] + label::after {
+  background-color: #472E99; }
+
+.cadastro-motorista .radio-danger input[type="radio"]:checked + label::before {
+  border-color: #472E99; }
+
+.cadastro-motorista .radio-danger input[type="radio"]:checked + label::after {
+  background-color: #472E99; }
 
 .login .box-white {
   background-color: white;
@@ -5562,9 +5613,12 @@ html, body {
 .fale-conosco h1 {
   margin-bottom: 60px; }
 
+.fale-conosco .section1 {
+  padding-bottom: 130px; }
+
 .fale-conosco .section-bg1, .fale-conosco .section-bg3 {
   margin-top: 350px;
-  padding-bottom: 580px; }
+  padding-bottom: 650px; }
 
 .fale-conosco .form-faleConosco {
   margin-top: 60px;
@@ -5604,10 +5658,6 @@ html, body {
   background-color: #F2F2F2 !important;
   margin-top: 280px;
   min-height: 195vh; }
-
-@media screen and (max-width: 1920px) {
-  .index .section1 .bg-purple {
-    margin-left: 91px; } }
 
 @media screen and (max-width: 1440px) {
   .container-fluid {
@@ -5677,6 +5727,8 @@ html, body {
     padding-right: 80px; }
     footer .shop a {
       display: inline-block; }
+  .motoristas .section1 .aux1 {
+    padding-top: 30px; }
   .motoristas .section-bg1, .motoristas .section-bg3 {
     margin-top: 240px; }
   .motoristas .timeline1 {
@@ -5690,7 +5742,7 @@ html, body {
     .motoristas .timeline1 .info2, .motoristas .timeline1 .info3 {
       margin-top: 32px; }
   .motoristas .timeline2 {
-    padding-top: 14px;
+    padding-top: 65px;
     padding-left: 80px;
     padding-right: 80px; }
   .motoristas .section3 {
@@ -5789,9 +5841,7 @@ html, body {
     padding-top: 60px; }
     .index footer .buttons-menu a {
       margin-bottom: 10px; }
-    .index footer .buttons-menu .btn-primary, .index footer .buttons-menu .btn-four,
-    .index footer .buttons-menu .btn-four.active:not(:disabled):not(.disabled),
-    .index footer .buttons-menu .btn-four:not(:disabled):not(.disabled):active {
+    .index footer .buttons-menu .btn-primary, .index footer .buttons-menu .btn-four {
       margin-right: 0; }
     .index footer .shop img {
       margin-bottom: 10px; }
@@ -5864,7 +5914,7 @@ html, body {
       padding: 60px 40px 10px 40px; }
       .passageiros .section3 .aux1 h1 {
         padding-right: 0; }
-    .passageiros .section3 .btn-secondary {
+    .passageiros .section3 .btn-secondary, .passageiros .section3 .btn-five, .passageiros .section3 .btn-six {
       width: 100%; }
   .passageiros .section-bg3 {
     margin-top: 0;
@@ -5884,9 +5934,14 @@ html, body {
     padding-left: 0;
     padding-right: 0;
     margin-right: 0 !important; }
-  .cadastro-motorista form {
-    margin-top: 60px; }
-    .cadastro-motorista form .btn {
+  .escolha .arrow-left {
+    margin: 30px 15px 100px 15px; }
+  .cadastro-motorista .arrow-left,
+  .cadastro-passageiro .arrow-left {
+    margin: 30px 15px; }
+  .cadastro-motorista form, .cadastro-passageiro form {
+    margin-top: 40px; }
+    .cadastro-motorista form .btn, .cadastro-passageiro form .btn {
       width: 100%; }
   .fale-conosco .section1 .aux1 h1 {
     padding: 0 110px; }
@@ -6051,9 +6106,7 @@ html, body {
       text-align: end; }
     footer .buttons-menu a {
       margin-bottom: 10px; }
-    footer .buttons-menu .btn-primary, footer .buttons-menu .btn-four,
-    footer .buttons-menu .btn-four.active:not(:disabled):not(.disabled),
-    footer .buttons-menu .btn-four:not(:disabled):not(.disabled):active {
+    footer .buttons-menu .btn-primary, footer .buttons-menu .btn-four {
       margin-right: 0; }
     footer .shop img {
       margin-bottom: 10px; }

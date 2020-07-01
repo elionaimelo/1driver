@@ -313,10 +313,21 @@
 
   }
 
+  .escolha {
+    .arrow-left {
+      margin: 30px 15px 100px 15px;
+    }
+  }
 
-  .cadastro-motorista {
+
+  .cadastro-motorista, .cadastro-passageiro {
+
+    .arrow-left {
+      margin: 30px 15px;
+    }
+
     form {
-      margin-top: 60px;
+      margin-top: 40px;
 
       .btn {
         width: 100%;

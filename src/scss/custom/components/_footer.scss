@@ -61,6 +61,11 @@
   
     p {
       margin-bottom: 75px;
+
+      a {
+        color: $colorTxt;
+        display: inline-block;
+      }
     }
 
     .institucional {

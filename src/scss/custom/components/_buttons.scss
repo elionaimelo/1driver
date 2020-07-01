@@ -1,6 +1,4 @@
-.btn-primary,
-.btn-primary:not(:disabled):not(.disabled).active,
-.btn-primary:not(:disabled):not(.disabled):active {
+.btn-primary{
   background-color: $vermelho;
   color: white;
   border-radius: 30px;
@@ -10,6 +8,13 @@
   border: none;
   width: 230px;
   border-color: transparent;
+
+  &:focus , &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    background-color: $vermelho;
+    box-shadow: none;
+  }
 
   i {
     color: $amarelo;
@@ -34,9 +39,7 @@
   }
 }
 
-.btn-secondary,
-.btn-secondary:not(:disabled):not(.disabled).active,
-.btn-secondary:not(:disabled):not(.disabled):active {
+.btn-secondary {
   background-color: white;
   border: 1px solid $lilas;
   border-radius: 30px;
@@ -45,6 +48,13 @@
   font-weight: 500;
   font-size: $btn-font-size;
   width: 230px;
+
+  &:focus , &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    background-color: white;
+    box-shadow: none;
+  }
 
   i {
     color: $vermelho;
@@ -66,9 +76,7 @@
   }
 }
 
-.btn-third,
-.btn-third:not(:disabled):not(.disabled).active,
-.btn-third:not(:disabled):not(.disabled):active {
+.btn-third {
   background-color: transparent;
   border: 2px solid rgba($color: #fff, $alpha: 0.5);
   color: white;
@@ -77,6 +85,13 @@
   font-weight: 500;
   width: 260px;
   font-size: $btn-font-size;
+
+  &:focus , &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle  {
+    background-color:transparent;
+    box-shadow: none;
+  }
 
   i {
     color: $amarelo;
@@ -97,9 +112,7 @@
   }
 }
 
-.btn-four , 
-.btn-four:not(:disabled):not(.disabled).active,
-.btn-four:not(:disabled):not(.disabled):active
+.btn-four 
 {
   @extend .btn-primary;
   background-color: white;
@@ -107,8 +120,27 @@
   color: $roxo;
   border: 2px solid #f2f2f2;
 
+  &:focus , &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    background-color:white;
+    box-shadow: none;
+  }
+  
+
+
   &:hover {
     background-color: #f2f2f2;
     color: $roxo !important;
   }
+}
+
+.btn-five {
+  @extend .btn-secondary;
+  border-color: $roxoClaro;
+}
+
+.btn-six {
+  @extend .btn-secondary;
+  border-color: $vermelho;
 }
