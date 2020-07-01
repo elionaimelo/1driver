@@ -1,7 +1,7 @@
 
   footer {
     padding-top: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     padding-left: $general-padding-left;
     padding-right: $general-padding-right;
     
@@ -33,6 +33,7 @@
     }
     
     .shop {
+      
       a:not(:last-child) {
         margin-right: 40px;
       }
@@ -42,6 +43,21 @@
       margin-bottom: 30px;
       color: $roxo;
     }
+
+    .location {
+      font-size: 21px;
+     p {
+      margin-bottom: 20px;
+     }
+      img {
+        margin-right: 15px;
+      }
+    }
+
+    .whatsapp {
+      @extend .location;
+      margin-right: 0;
+    }
   
     p {
       margin-bottom: 75px;
@@ -50,10 +66,17 @@
     .institucional {
       margin-top: 110px;
       font-size: 13px;
+      div {
+        margin-bottom: 6px;
+      }
       a {
-        color: $colorTxt;
+        color: $colorTxt; 
+        text-decoration: underline;
+      }
 
-
+      .link-mobister {
+        text-decoration: none;
       }
     }
   }
+

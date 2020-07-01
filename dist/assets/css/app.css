@@ -469,7 +469,7 @@ h3 {
 
 footer {
   padding-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   padding-left: 110px;
   padding-right: 110px; }
   footer .social {
@@ -491,13 +491,26 @@ footer {
   footer h1 {
     margin-bottom: 30px;
     color: #472E99; }
+  footer .location, footer .whatsapp {
+    font-size: 21px; }
+    footer .location p, footer .whatsapp p {
+      margin-bottom: 20px; }
+    footer .location img, footer .whatsapp img {
+      margin-right: 15px; }
+  footer .whatsapp {
+    margin-right: 0; }
   footer p {
     margin-bottom: 75px; }
   footer .institucional {
     margin-top: 110px;
     font-size: 13px; }
+    footer .institucional div {
+      margin-bottom: 6px; }
     footer .institucional a {
-      color: #655D7E; }
+      color: #655D7E;
+      text-decoration: underline; }
+    footer .institucional .link-mobister {
+      text-decoration: none; }
 
 /*!
  * Font Awesome Free 5.13.1 by @fontawesome - https://fontawesome.com
