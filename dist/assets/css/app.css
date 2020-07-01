@@ -202,7 +202,7 @@ h3 {
   .form-login .group textarea:focus,
   .form-faleConosco .group input:focus,
   .form-faleConosco .group textarea:focus {
-    outline: none; }
+    outline: none !important; }
   .form-search .group textarea,
   .form-registration .group textarea,
   .form-login .group textarea,
@@ -350,6 +350,8 @@ h3 {
     color: #472E99 !important; }
 
 .btn-primary, .btn-four,
+.btn-four.active:not(:disabled):not(.disabled),
+.btn-four:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-four:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -363,33 +365,35 @@ h3 {
   border: none;
   width: 230px;
   border-color: transparent; }
-  .btn-primary i, .btn-four i,
+  .btn-primary i, .btn-four i, .btn-four.active:not(:disabled):not(.disabled) i, .btn-four:not(:disabled):not(.disabled):active i,
   .btn-primary:not(:disabled):not(.disabled).active i,
   .btn-four:not(:disabled):not(.disabled).active i,
   .btn-primary:not(:disabled):not(.disabled):active i,
   .btn-four:not(:disabled):not(.disabled):active i {
     color: #F0DC26; }
-  .btn-primary span, .btn-four span,
+  .btn-primary span, .btn-four span, .btn-four.active:not(:disabled):not(.disabled) span, .btn-four:not(:disabled):not(.disabled):active span,
   .btn-primary:not(:disabled):not(.disabled).active span,
   .btn-four:not(:disabled):not(.disabled).active span,
   .btn-primary:not(:disabled):not(.disabled):active span,
   .btn-four:not(:disabled):not(.disabled):active span {
     padding-left: 5px; }
   .btn-primary:hover, .btn-four:hover,
+  .btn-four.active:hover:not(:disabled):not(.disabled),
+  .btn-four:hover:not(:disabled):not(.disabled):active,
   .btn-primary:not(:disabled):not(.disabled).active:hover,
   .btn-four:not(:disabled):not(.disabled).active:hover,
   .btn-primary:not(:disabled):not(.disabled):active:hover,
   .btn-four:not(:disabled):not(.disabled):active:hover {
     color: #F0DC26 !important;
     background-color: #F74D49; }
-    .btn-primary:hover span, .btn-four:hover span,
+    .btn-primary:hover span, .btn-four:hover span, .btn-four.active:hover:not(:disabled):not(.disabled) span, .btn-four:hover:not(:disabled):not(.disabled):active span,
     .btn-primary:not(:disabled):not(.disabled).active:hover span,
     .btn-four:not(:disabled):not(.disabled).active:hover span,
     .btn-primary:not(:disabled):not(.disabled):active:hover span,
     .btn-four:not(:disabled):not(.disabled):active:hover span {
       margin-left: -10px;
       padding-right: 5px; }
-    .btn-primary:hover i, .btn-four:hover i,
+    .btn-primary:hover i, .btn-four:hover i, .btn-four.active:hover:not(:disabled):not(.disabled) i, .btn-four:hover:not(:disabled):not(.disabled):active i,
     .btn-primary:not(:disabled):not(.disabled).active:hover i,
     .btn-four:not(:disabled):not(.disabled).active:hover i,
     .btn-primary:not(:disabled):not(.disabled):active:hover i,
@@ -397,7 +401,9 @@ h3 {
       color: white;
       padding-left: 5px; }
 
-.btn-secondary {
+.btn-secondary,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active {
   background-color: white;
   border: 1px solid #F5F2FF;
   border-radius: 30px;
@@ -406,19 +412,29 @@ h3 {
   font-weight: 500;
   font-size: 18px;
   width: 230px; }
-  .btn-secondary i {
+  .btn-secondary i,
+  .btn-secondary:not(:disabled):not(.disabled).active i,
+  .btn-secondary:not(:disabled):not(.disabled):active i {
     color: #F74D49; }
-  .btn-secondary:hover {
+  .btn-secondary:hover,
+  .btn-secondary:not(:disabled):not(.disabled).active:hover,
+  .btn-secondary:not(:disabled):not(.disabled):active:hover {
     background-color: #F5F2FF !important;
     color: #3D2885;
     border-color: transparent; }
-    .btn-secondary:hover span {
+    .btn-secondary:hover span,
+    .btn-secondary:not(:disabled):not(.disabled).active:hover span,
+    .btn-secondary:not(:disabled):not(.disabled):active:hover span {
       margin-left: -5px;
       padding-right: 5px; }
-    .btn-secondary:hover i {
+    .btn-secondary:hover i,
+    .btn-secondary:not(:disabled):not(.disabled).active:hover i,
+    .btn-secondary:not(:disabled):not(.disabled):active:hover i {
       padding-left: 7px; }
 
-.btn-third {
+.btn-third,
+.btn-third:not(:disabled):not(.disabled).active,
+.btn-third:not(:disabled):not(.disabled):active {
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
   color: white;
@@ -427,23 +443,35 @@ h3 {
   font-weight: 500;
   width: 260px;
   font-size: 18px; }
-  .btn-third i {
+  .btn-third i,
+  .btn-third:not(:disabled):not(.disabled).active i,
+  .btn-third:not(:disabled):not(.disabled):active i {
     color: #F0DC26; }
-  .btn-third:hover {
+  .btn-third:hover,
+  .btn-third:not(:disabled):not(.disabled).active:hover,
+  .btn-third:not(:disabled):not(.disabled):active:hover {
     background-color: #e64845;
     color: white !important; }
-    .btn-third:hover span {
+    .btn-third:hover span,
+    .btn-third:not(:disabled):not(.disabled).active:hover span,
+    .btn-third:not(:disabled):not(.disabled):active:hover span {
       margin-left: -10px;
       padding-right: 5px; }
-    .btn-third:hover i {
+    .btn-third:hover i,
+    .btn-third:not(:disabled):not(.disabled).active:hover i,
+    .btn-third:not(:disabled):not(.disabled):active:hover i {
       padding-left: 5px; }
 
-.btn-four {
+.btn-four,
+.btn-four:not(:disabled):not(.disabled).active,
+.btn-four:not(:disabled):not(.disabled):active {
   background-color: white;
   width: auto !important;
   color: #472E99;
   border: 2px solid #f2f2f2; }
-  .btn-four:hover {
+  .btn-four:hover,
+  .btn-four:not(:disabled):not(.disabled).active:hover,
+  .btn-four:not(:disabled):not(.disabled):active:hover {
     background-color: #f2f2f2;
     color: #472E99 !important; }
 
@@ -481,10 +509,14 @@ footer {
         font-size: 30px; }
       footer .social a:not(:last-child) i {
         margin-right: 60px; }
-  footer .btn-primary, footer .btn-four {
+  footer .btn-primary, footer .btn-four,
+  footer .btn-four.active:not(:disabled):not(.disabled),
+  footer .btn-four:not(:disabled):not(.disabled):active {
     width: auto;
     padding: 10px 35px; }
-    footer .btn-primary:not(:last-child), footer .btn-four:not(:last-child) {
+    footer .btn-primary:not(:last-child), footer .btn-four:not(:last-child),
+    footer .btn-four.active:not(:last-child):not(:disabled):not(.disabled),
+    footer .btn-four:not(:last-child):not(:disabled):not(.disabled):active {
       margin-right: 20px; }
   footer .shop a:not(:last-child) {
     margin-right: 40px; }
@@ -5242,7 +5274,9 @@ readers do not read off random characters that represent icons */
   .motoristas .section-bg1, .motoristas .section-bg3 {
     margin-top: 290px;
     padding-bottom: 380px; }
-  .motoristas .btn-primary, .motoristas .btn-four {
+  .motoristas .btn-primary, .motoristas .btn-four,
+  .motoristas .btn-four.active:not(:disabled):not(.disabled),
+  .motoristas .btn-four:not(:disabled):not(.disabled):active {
     width: 350px;
     margin-top: 30px; }
   .motoristas .section1 {
@@ -5348,7 +5382,9 @@ readers do not read off random characters that represent icons */
     padding-bottom: 430px; }
   .passageiros .btn {
     margin: 20px auto; }
-  .passageiros .btn-primary, .passageiros .btn-four {
+  .passageiros .btn-primary, .passageiros .btn-four,
+  .passageiros .btn-four.active:not(:disabled):not(.disabled),
+  .passageiros .btn-four:not(:disabled):not(.disabled):active {
     width: 340px; }
   .passageiros .section1, .passageiros .section3 {
     padding: 0;
@@ -5487,12 +5523,28 @@ html, body {
   border-radius: 50px;
   margin-left: 40px; }
 
+.login .form-login input {
+  color: #F74D49; }
+
+.login .form-login #show_hide_password a {
+  position: absolute;
+  top: -27px;
+  right: 0; }
+
+.login .form-login .btn-four {
+  border-color: #D4CBF0; }
+
+.login .input-group-addon {
+  border-bottom: 1px solid #eae5fb; }
+
 .login .arrow-left {
   margin-top: 60px;
   margin-left: 40px; }
 
-.login .btn-four i {
-  color: #F74D49; }
+.login .btn-four {
+  color: #472E99; }
+  .login .btn-four i {
+    color: #F74D49; }
 
 .login .logo {
   margin-bottom: 70px;
@@ -5738,7 +5790,9 @@ html, body {
     padding-top: 60px; }
     .index footer .buttons-menu a {
       margin-bottom: 10px; }
-    .index footer .buttons-menu .btn-primary, .index footer .buttons-menu .btn-four {
+    .index footer .buttons-menu .btn-primary, .index footer .buttons-menu .btn-four,
+    .index footer .buttons-menu .btn-four.active:not(:disabled):not(.disabled),
+    .index footer .buttons-menu .btn-four:not(:disabled):not(.disabled):active {
       margin-right: 0; }
     .index footer .shop img {
       margin-bottom: 10px; }
@@ -5998,7 +6052,9 @@ html, body {
       text-align: end; }
     footer .buttons-menu a {
       margin-bottom: 10px; }
-    footer .buttons-menu .btn-primary, footer .buttons-menu .btn-four {
+    footer .buttons-menu .btn-primary, footer .buttons-menu .btn-four,
+    footer .buttons-menu .btn-four.active:not(:disabled):not(.disabled),
+    footer .buttons-menu .btn-four:not(:disabled):not(.disabled):active {
       margin-right: 0; }
     footer .shop img {
       margin-bottom: 10px; }

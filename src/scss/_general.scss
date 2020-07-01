@@ -206,7 +206,7 @@ h3 {
   }
   .group input:focus ,
   .group textarea:focus {
-    outline: none;
+    outline: none !important;
   }
 
   .group textarea {

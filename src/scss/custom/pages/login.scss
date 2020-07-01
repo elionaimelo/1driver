@@ -7,6 +7,28 @@
     margin-left: 40px;
   }
 
+  .form-login {
+    input {
+      color:$vermelho;
+    }
+
+    #show_hide_password {
+     a {
+      position: absolute;
+      top: -27px;
+      right: 0;
+     }
+    }
+
+    .btn-four {
+      border-color: #D4CBF0;
+    }
+  }
+
+  .input-group-addon {
+    border-bottom: 1px solid #eae5fb;
+  }
+
   .arrow-left {
     margin-top: 60px;
     margin-left: 40px;
@@ -16,6 +38,7 @@
     i {
       color: $vermelho;
     }
+    color: $roxo;
   }
 
   .logo {

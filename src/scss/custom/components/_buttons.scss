@@ -35,7 +35,9 @@
   }
 }
 
-.btn-secondary {
+.btn-secondary,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active {
   background-color: white;
   border: 1px solid $lilas;
   border-radius: 30px;
@@ -65,7 +67,9 @@
   }
 }
 
-.btn-third {
+.btn-third,
+.btn-third:not(:disabled):not(.disabled).active,
+.btn-third:not(:disabled):not(.disabled):active {
   background-color: transparent;
   border: 2px solid rgba($color: #fff, $alpha: 0.5);
   color: white;
@@ -94,7 +98,10 @@
   }
 }
 
-.btn-four {
+.btn-four , 
+.btn-four:not(:disabled):not(.disabled).active,
+.btn-four:not(:disabled):not(.disabled):active
+{
   @extend .btn-primary;
   background-color: white;
   width: auto !important;
