@@ -391,15 +391,14 @@ h3 {
     .btn-four:not(:disabled):not(.disabled).active:hover span,
     .btn-primary:not(:disabled):not(.disabled):active:hover span,
     .btn-four:not(:disabled):not(.disabled):active:hover span {
-      margin-left: -10px;
-      padding-right: 5px; }
+      margin-left: -5px; }
     .btn-primary:hover i, .btn-four:hover i, .btn-four.active:hover:not(:disabled):not(.disabled) i, .btn-four:hover:not(:disabled):not(.disabled):active i,
     .btn-primary:not(:disabled):not(.disabled).active:hover i,
     .btn-four:not(:disabled):not(.disabled).active:hover i,
     .btn-primary:not(:disabled):not(.disabled):active:hover i,
     .btn-four:not(:disabled):not(.disabled):active:hover i {
       color: white;
-      padding-left: 5px; }
+      padding-left: 10px; }
 
 .btn-secondary,
 .btn-secondary:not(:disabled):not(.disabled).active,
@@ -425,7 +424,7 @@ h3 {
     .btn-secondary:hover span,
     .btn-secondary:not(:disabled):not(.disabled).active:hover span,
     .btn-secondary:not(:disabled):not(.disabled):active:hover span {
-      margin-left: -5px;
+      margin-left: 0px;
       padding-right: 5px; }
     .btn-secondary:hover i,
     .btn-secondary:not(:disabled):not(.disabled).active:hover i,
@@ -455,7 +454,7 @@ h3 {
     .btn-third:hover span,
     .btn-third:not(:disabled):not(.disabled).active:hover span,
     .btn-third:not(:disabled):not(.disabled):active:hover span {
-      margin-left: -10px;
+      margin-left: -5px;
       padding-right: 5px; }
     .btn-third:hover i,
     .btn-third:not(:disabled):not(.disabled).active:hover i,
