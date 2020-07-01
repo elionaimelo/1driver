@@ -1,0 +1,39 @@
+.login {
+  .box-white {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 50px;
+    margin-left: 40px;
+  }
+
+  .arrow-left {
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .btn-four {
+    i {
+      color: $vermelho;
+    }
+  }
+
+  .logo {
+    margin-bottom: 70px;
+    margin-top: 60px;
+  }
+
+  a {
+    color: #989898;
+    margin-top: 40px;
+  }
+
+  .btn {
+    width: 100% !important;
+    margin-top:23px;
+
+    &:first-child {
+      margin-top: 30px;
+    }
+  }
+}
