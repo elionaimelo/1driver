@@ -102,7 +102,9 @@
   }
 
   .radios {
-    margin-bottom: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
   }
 
   p.check {
@@ -132,6 +134,12 @@
       }
     }
   }
+
+  .form-registration {
+    input {
+      border-color: #F7BBBA;
+    }
+  } 
 
   .radio-danger input[type="radio"] + label::after {
     background-color: $vermelho;

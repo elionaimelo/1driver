@@ -5529,7 +5529,9 @@ html, body {
 
 .cadastro-motorista .radios,
 .cadastro-passageiro .radios {
-  margin-bottom: 35px; }
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 5px; }
 
 .cadastro-motorista p.check,
 .cadastro-passageiro p.check {
@@ -5547,6 +5549,9 @@ html, body {
 
 .cadastro-passageiro .box-choice h1 .highlight {
   color: #F7BBBA; }
+
+.cadastro-passageiro .form-registration input {
+  border-color: #F7BBBA; }
 
 .cadastro-passageiro .radio-danger input[type="radio"] + label::after {
   background-color: #F74D49; }
