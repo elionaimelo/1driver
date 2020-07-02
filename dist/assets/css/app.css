@@ -5114,7 +5114,8 @@ readers do not read off random characters that represent icons */
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   background: #3D2885 url(../images/ladoA.png) bottom no-repeat;
-  background-size: 100%; }
+  background-size: 100%;
+  margin-left: 90px; }
   .index .section1 .bg-purple .aux1 {
     padding-top: 99px;
     padding-left: 140px; }
