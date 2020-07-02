@@ -139,6 +139,14 @@
     input {
       border-color: #F7BBBA;
     }
+
+    #show_hide_password ,
+    #show_hide_password1 {
+      a {
+        top: 10px;
+        color: #F7BBBA;
+      }
+    }
   } 
 
   .radio-danger input[type="radio"] + label::after {
@@ -153,6 +161,17 @@
 }
 
 .cadastro-motorista {
+
+  .form-registration {
+
+    #show_hide_password ,
+    #show_hide_password1 {
+      a {
+        top: 10px;
+        color: $roxo;
+      }
+    }
+  } 
 
 
   .radio-danger input[type="radio"] + label::after {

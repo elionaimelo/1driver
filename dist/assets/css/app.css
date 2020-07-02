@@ -80,6 +80,12 @@ h3 {
 .form-check-label {
   font-size: 18px !important; }
 
+#show_hide_password a,
+#show_hide_password1 a {
+  position: absolute;
+  top: -27px;
+  right: 0; }
+
 .section5,
 .section7,
 .motoristas .section1,
@@ -5553,6 +5559,11 @@ html, body {
 .cadastro-passageiro .form-registration input {
   border-color: #F7BBBA; }
 
+.cadastro-passageiro .form-registration #show_hide_password a,
+.cadastro-passageiro .form-registration #show_hide_password1 a {
+  top: 10px;
+  color: #F7BBBA; }
+
 .cadastro-passageiro .radio-danger input[type="radio"] + label::after {
   background-color: #F74D49; }
 
@@ -5561,6 +5572,11 @@ html, body {
 
 .cadastro-passageiro .radio-danger input[type="radio"]:checked + label::after {
   background-color: #F74D49; }
+
+.cadastro-motorista .form-registration #show_hide_password a,
+.cadastro-motorista .form-registration #show_hide_password1 a {
+  top: 10px;
+  color: #472E99; }
 
 .cadastro-motorista .radio-danger input[type="radio"] + label::after {
   background-color: #472E99; }
@@ -5580,11 +5596,6 @@ html, body {
 
 .login .form-login input {
   color: #F74D49; }
-
-.login .form-login #show_hide_password a {
-  position: absolute;
-  top: -27px;
-  right: 0; }
 
 .login .form-login .btn-four {
   border-color: #D4CBF0; }
