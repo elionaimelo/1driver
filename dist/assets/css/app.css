@@ -5604,12 +5604,18 @@ html, body {
 .cadastro-motorista .radio-danger input[type="radio"]:checked + label::after {
   background-color: #472E99; }
 
+.login .logo {
+  margin-left: -40px; }
+
 .login .box-white {
   background-color: white;
   padding-top: 80px;
   padding-bottom: 80px;
   border-radius: 50px;
   margin-left: 40px; }
+
+.login .form-login form#login-form {
+  padding: 0; }
 
 .login .form-login input {
   color: #F74D49; }
@@ -5987,7 +5993,9 @@ html, body {
   .fale-conosco .section1 .btn {
     width: 100% !important; }
   .politica-privacidade .section-bg1, .politica-privacidade .section-bg3 {
-    min-height: 295vh; } }
+    min-height: 295vh; }
+  .login .form-login form#login-form {
+    padding: 0px 60px; } }
 
 @media screen and (max-width: 600px) {
   .container-fluid {
@@ -6165,4 +6173,11 @@ html, body {
   .politica-privacidade .section-bg1, .politica-privacidade .section-bg3 {
     min-height: 200px;
     padding-bottom: 0;
-    background-color: transparent !important; } }
+    background-color: transparent !important; }
+  .login .arrow-left {
+    margin-left: 10px; }
+  .login .box-white {
+    margin-left: 10px;
+    margin-right: 10px; }
+  .login .form-login form#login-form {
+    padding: 0 40px; } }

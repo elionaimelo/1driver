@@ -338,4 +338,17 @@
     }
   }
 
+  .login {
+    .arrow-left {
+      margin-left: 10px;
+    }
+    .box-white {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .form-login form#login-form {
+      padding: 0 40px;
+    }
+  }
+
 }
