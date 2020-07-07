@@ -5,7 +5,10 @@ html {
 body {
   font-family: "Rubik";
   font-weight: 400;
-  color: #655D7E; }
+  color: #655D7E;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased; }
 
 .container-fluid {
   padding-left: 120px;
@@ -482,7 +485,7 @@ footer {
   padding-left: 110px;
   padding-right: 110px; }
   footer .social {
-    margin-top: 90px;
+    margin-top: 100px;
     margin-bottom: 80px; }
     footer .social a {
       color: #D4CBF0; }
@@ -509,7 +512,7 @@ footer {
   footer .whatsapp {
     margin-right: 0; }
   footer p {
-    margin-bottom: 75px; }
+    margin-bottom: 51px; }
     footer p a {
       color: #655D7E;
       display: inline-block; }
@@ -5117,7 +5120,7 @@ readers do not read off random characters that represent icons */
   background-size: 100%;
   margin-left: 90px; }
   .index .section1 .bg-purple .aux1 {
-    padding-top: 99px;
+    padding-top: 112px;
     padding-left: 140px; }
   .index .section1 .bg-purple h1 {
     margin-bottom: 40px; }
@@ -5129,13 +5132,17 @@ readers do not read off random characters that represent icons */
   .index .section1 .bg-purple .btn {
     margin-right: 60px; }
 
+.index .flex-095 {
+  -ms-flex: 0.90;
+      flex: 0.90; }
+
 .index .section2 {
   padding-top: 250px;
-  padding-bottom: 100px;
-  padding-left: 110px; }
+  padding-bottom: 100px; }
   .index .section2 .txt-purple {
     margin-top: 90px;
     padding-right: 96px;
+    padding-left: 110px;
     color: #472E99; }
     .index .section2 .txt-purple span {
       color: rgba(71, 46, 153, 0.5); }
@@ -5421,7 +5428,7 @@ html, body {
   padding-right: 15px; }
 
 .escolha .arrow-left {
-  margin: 60px;
+  margin: 60px 60px 63px;
   -ms-flex: 0.37;
       flex: 0.37; }
 
@@ -5429,11 +5436,20 @@ html, body {
   color: #A69AD0; }
 
 .escolha .box-choice {
-  padding: 10px 30px 20px 30px; }
-  .escolha .box-choice:hover {
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0px 10px 42px 3px rgba(0, 0, 0, 0.2) !important;
-    border-radius: 20px; }
+  padding: 10px 30px 20px 30px;
+  transition: all 0.3s ease-in-out; }
+  .escolha .box-choice img, .escolha .box-choice h1 {
+    transition: all 0.3s ease-in-out; }
+  .escolha .box-choice svg:circle, .escolha .box-choice svg .line {
+    transition: all 0.3s ease-in-out; }
+  .escolha .box-choice:hover img {
+    margin-top: -10px; }
+  .escolha .box-choice:hover svg circle {
+    fill: #F74D49; }
+  .escolha .box-choice:hover svg .line {
+    fill: #F7BBBA; }
+  .escolha .box-choice:hover h1 {
+    margin-top: 25px; }
   .escolha .box-choice img {
     margin-left: -20px; }
 
@@ -5686,29 +5702,31 @@ html, body {
   #header {
     padding-left: 75px; }
   h1 {
-    font-size: 2.2rem; }
+    font-size: 2rem; }
   p {
-    font-size: 1.3rem !important; }
+    font-size: 1.2rem !important; }
+  .index .flex-095 {
+    -ms-flex: 0.95;
+        flex: 0.95; }
   .index .section1 .bg-purple {
-    margin-left: 30px; }
+    margin-left: 30px;
+    background-image: url(../images/ladoA_1440.png); }
     .index .section1 .bg-purple img {
       max-width: 38%; }
     .index .section1 .bg-purple p {
       font-size: 1rem;
       line-height: 27px; }
     .index .section1 .bg-purple .aux1 {
-      padding-top: 54px;
+      padding-top: 63px;
       padding-left: 90px; }
     .index .section1 .bg-purple .btn {
       margin-right: 30px; }
     .index .section1 .bg-purple h1 {
       margin-bottom: 20px; }
-  .index .section2 {
-    padding-left: 80px; }
-    .index .section2 .txt1 {
-      padding-left: 129px;
-      padding-right: 0;
-      line-height: 31px; }
+  .index .section2 .txt1 {
+    padding-left: 129px;
+    padding-right: 0;
+    line-height: 31px; }
   .index .section3 .box-purple {
     padding-left: 100px; }
     .index .section3 .box-purple p {
@@ -5779,6 +5797,10 @@ html, body {
   .passageiros .section-bg3 {
     padding-top: 470px;
     padding-bottom: 130px; }
+  .cadastro-motorista .arrow-left {
+    margin: 49px 30px; }
+  .escolha .arrow-left {
+    margin: 49px 30px; }
   .politica-privacidade .section-bg1, .politica-privacidade .section-bg3 {
     min-height: 252vh; } }
 

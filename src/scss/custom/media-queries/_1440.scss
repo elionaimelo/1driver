@@ -14,18 +14,26 @@
   }
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   p {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
   }
+
+
 
   // página index
   .index {
+
+    .flex-095 {
+      flex:0.95;
+    }
+
     .section1 {
       .bg-purple {
         margin-left: 30px;
+        background-image:url(../images/ladoA_1440.png);
 
         img {
           max-width: 38%;
@@ -37,7 +45,7 @@
         }
 
         .aux1 {
-          padding-top: 54px;
+          padding-top: 63px;
           padding-left: 90px;
         }
 
@@ -52,7 +60,7 @@
     }
 
     .section2 {
-      padding-left: $general-padding-left - 30px;
+      // padding-left: $general-padding-left - 30px;
 
       .txt1 {
         padding-left: 129px;
@@ -212,6 +220,19 @@
     }
 
 
+  }
+
+  .cadastro-motorista {
+    .arrow-left {
+      margin:49px 30px;
+    }
+  }
+
+
+  .escolha {
+    .arrow-left {
+      margin:49px 30px;
+    }
   }
 
   .politica-privacidade {
