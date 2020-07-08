@@ -136,6 +136,11 @@
   }
 
   .form-registration {
+
+    .group {
+      margin-bottom: 30px;
+    }
+
     input {
       border-color: #F7BBBA;
     }
@@ -163,6 +168,10 @@
 .cadastro-motorista {
 
   .form-registration {
+
+    .group {
+      margin-bottom: 30px;
+    }
 
     #show_hide_password ,
     #show_hide_password1 {

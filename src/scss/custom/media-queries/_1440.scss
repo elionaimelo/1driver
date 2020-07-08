@@ -148,12 +148,6 @@
   // página de motorista
   .motoristas {
 
-    .section1 {
-      .aux1 {
-        padding-top: 30px;
-      }
-    }
-    
     .section-bg1 {
       margin-top: 240px;
     }
@@ -166,16 +160,16 @@
         margin-top: -5px;
       }
 
-      .info1 {
-        margin-top: 95px;
-      }
-      .info2 , .info3 {
-        margin-top: 32px;
-      }
+      // .info1 {
+      //   margin-top: 95px;
+      // }
+      // .info2 , .info3 {
+      //   margin-top: 32px;
+      // }
     }
 
     .timeline2 {
-      padding-top: 65px;
+      // padding-top: 65px;
       padding-left: $general-padding-left - 30px;
       padding-right: $general-padding-left - 30px;
     }
@@ -200,7 +194,8 @@
   .passageiros {
     
     .section-bg1 {
-      padding-top: 400px;
+      margin-top: 230px;
+      padding-top: 280px;
       padding-bottom: 330px;
     }
 
@@ -212,10 +207,18 @@
 
     .section3 {
       margin-top: 100px;
+
+      .aux1 {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        h1 {
+          padding-right: 60px;
+        }
+      }
     }
 
     .section-bg3 {
-      padding-top: 470px;
+      padding-top: 230px;
       padding-bottom: 130px;
     }
 
@@ -223,6 +226,12 @@
   }
 
   .cadastro-motorista {
+    .arrow-left {
+      margin:49px 30px;
+    }
+  }
+
+  .cadastro-passageiro {
     .arrow-left {
       margin:49px 30px;
     }

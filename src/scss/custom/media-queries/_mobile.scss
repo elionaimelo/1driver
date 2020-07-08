@@ -210,6 +210,14 @@
       padding-right: $general-padding-right - 110px;
     }
 
+    .border-before {
+      position: relative;
+
+      &:before {
+        content: none;
+      }
+    }
+
     .btn {
       padding-left: 0;
       padding-right: 0;

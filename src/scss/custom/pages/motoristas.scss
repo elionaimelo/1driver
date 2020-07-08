@@ -37,7 +37,7 @@
     .timeline2 {
       padding-top: 278px;
       .info1 {
-        margin-top: 115px;
+        padding-top: 115px;
       }
       .info2,
       .info3gl {
@@ -49,12 +49,14 @@
         h1 {
           font-size: 3rem;
           color: $roxo;
+          margin-bottom: 40px;
         }
 
         p {
-          font-size: 1.5rem;
+          font-size: 26px !important;
+          line-height: 41px;
           color: $colorTxt;
-          margin-bottom: 52px;
+          margin-bottom: 36px;
 
           span {
             font-weight: 500;
