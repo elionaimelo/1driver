@@ -1,4 +1,4 @@
-@media screen and (max-width: 1920px) {
+
   .motoristas {
     section {
       padding-left: $general-padding-left;
@@ -6,7 +6,7 @@
     }
 
     .section-bg1 {
-      margin-top: 290px;
+      margin-top: 246px;
       padding-bottom: 380px;
     }
 
@@ -22,7 +22,7 @@
       border-bottom-right-radius: 50px;
 
       .aux1 {
-        padding: 60px 30px 30px 90px;
+        padding: 0px 30px 40px 120px;
       }
 
       h1 {
@@ -132,7 +132,7 @@
         margin-top: 50px;
 
         .btn {
-          margin-top: 80px;
+          margin-top: 40px;
         }
       }
     }
@@ -142,4 +142,4 @@
       padding-bottom: 180px;
     }
   }
-}
+

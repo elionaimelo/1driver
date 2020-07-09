@@ -5260,111 +5260,117 @@ readers do not read off random characters that represent icons */
       color: #655D7E;
       font-weight: 400; }
 
-@media screen and (max-width: 1920px) {
-  .motoristas section {
-    padding-left: 110px;
-    padding-right: 110px; }
-  .motoristas .section-bg1, .motoristas .section-bg3 {
-    margin-top: 290px;
-    padding-bottom: 380px; }
-  .motoristas .btn-primary, .motoristas .btn-four {
-    width: 350px;
-    margin-top: 30px; }
-  .motoristas .section1 {
-    padding: 0;
-    margin-top: 0;
-    width: 100%;
-    border-bottom-right-radius: 50px; }
-    .motoristas .section1 .aux1 {
-      padding: 60px 30px 30px 90px; }
-    .motoristas .section1 h1 {
-      color: #472E99; }
-      .motoristas .section1 h1 span {
-        color: rgba(71, 46, 153, 0.5); }
-  .motoristas .timeline1,
-  .motoristas .timeline2 {
-    padding-top: 278px; }
-    .motoristas .timeline1 .info1,
-    .motoristas .timeline2 .info1 {
-      padding-top: 115px; }
-    .motoristas .timeline1 .info2,
-    .motoristas .timeline1 .info3gl,
-    .motoristas .timeline2 .info2,
-    .motoristas .timeline2 .info3gl {
-      margin-top: 40px; }
-    .motoristas .timeline1 .info1 h1,
-    .motoristas .timeline1 .info2 h1,
-    .motoristas .timeline1 .info3 h1,
-    .motoristas .timeline2 .info1 h1,
-    .motoristas .timeline2 .info2 h1,
-    .motoristas .timeline2 .info3 h1 {
-      font-size: 3rem;
-      color: #472E99;
-      margin-bottom: 40px; }
-    .motoristas .timeline1 .info1 p,
-    .motoristas .timeline1 .info2 p,
-    .motoristas .timeline1 .info3 p,
-    .motoristas .timeline2 .info1 p,
-    .motoristas .timeline2 .info2 p,
-    .motoristas .timeline2 .info3 p {
-      font-size: 26px !important;
-      line-height: 41px;
-      color: #655D7E;
-      margin-bottom: 36px; }
-      .motoristas .timeline1 .info1 p span,
-      .motoristas .timeline1 .info2 p span,
-      .motoristas .timeline1 .info3 p span,
-      .motoristas .timeline2 .info1 p span,
-      .motoristas .timeline2 .info2 p span,
-      .motoristas .timeline2 .info3 p span {
-        font-weight: 500;
-        color: #655D7E; }
-  .motoristas .section3 {
-    margin-top: 100px; }
-    .motoristas .section3 h1 {
-      color: #3D2885; }
-    .motoristas .section3 p {
+.motoristas section {
+  padding-left: 110px;
+  padding-right: 110px; }
+
+.motoristas .section-bg1, .motoristas .section-bg3 {
+  margin-top: 246px;
+  padding-bottom: 380px; }
+
+.motoristas .btn-primary, .motoristas .btn-four {
+  width: 350px;
+  margin-top: 30px; }
+
+.motoristas .section1 {
+  padding: 0;
+  margin-top: 0;
+  width: 100%;
+  border-bottom-right-radius: 50px; }
+  .motoristas .section1 .aux1 {
+    padding: 0px 30px 40px 120px; }
+  .motoristas .section1 h1 {
+    color: #472E99; }
+    .motoristas .section1 h1 span {
+      color: rgba(71, 46, 153, 0.5); }
+
+.motoristas .timeline1,
+.motoristas .timeline2 {
+  padding-top: 278px; }
+  .motoristas .timeline1 .info1,
+  .motoristas .timeline2 .info1 {
+    padding-top: 115px; }
+  .motoristas .timeline1 .info2,
+  .motoristas .timeline1 .info3gl,
+  .motoristas .timeline2 .info2,
+  .motoristas .timeline2 .info3gl {
+    margin-top: 40px; }
+  .motoristas .timeline1 .info1 h1,
+  .motoristas .timeline1 .info2 h1,
+  .motoristas .timeline1 .info3 h1,
+  .motoristas .timeline2 .info1 h1,
+  .motoristas .timeline2 .info2 h1,
+  .motoristas .timeline2 .info3 h1 {
+    font-size: 3rem;
+    color: #472E99;
+    margin-bottom: 40px; }
+  .motoristas .timeline1 .info1 p,
+  .motoristas .timeline1 .info2 p,
+  .motoristas .timeline1 .info3 p,
+  .motoristas .timeline2 .info1 p,
+  .motoristas .timeline2 .info2 p,
+  .motoristas .timeline2 .info3 p {
+    font-size: 26px !important;
+    line-height: 41px;
+    color: #655D7E;
+    margin-bottom: 36px; }
+    .motoristas .timeline1 .info1 p span,
+    .motoristas .timeline1 .info2 p span,
+    .motoristas .timeline1 .info3 p span,
+    .motoristas .timeline2 .info1 p span,
+    .motoristas .timeline2 .info2 p span,
+    .motoristas .timeline2 .info3 p span {
+      font-weight: 500;
       color: #655D7E; }
-    .motoristas .section3 .txt1 {
-      padding-right: 130px;
-      margin-top: 30px;
-      font-size: 1.5rem;
-      line-height: 41px; }
-      .motoristas .section3 .txt1 span {
-        font-weight: 500;
-        color: #655D7E; }
-    .motoristas .section3 .icon-map {
-      margin-top: 30px; }
-    .motoristas .section3 .txt2 {
-      margin-top: 37px;
-      font-size: 18px;
-      line-height: 32px;
-      padding-right: 110px; }
-      .motoristas .section3 .txt2 span {
-        font-weight: 500;
-        color: #655D7E; }
-  .motoristas .timeline2 {
-    padding-top: 0px; }
-    .motoristas .timeline2 .info1 h1,
-    .motoristas .timeline2 .info2 h1,
-    .motoristas .timeline2 .info3 h1 {
-      color: white; }
-    .motoristas .timeline2 .info1 p,
-    .motoristas .timeline2 .info2 p,
-    .motoristas .timeline2 .info3 p {
-      color: #A69AD0;
-      font-weight: 400; }
-      .motoristas .timeline2 .info1 p span,
-      .motoristas .timeline2 .info2 p span,
-      .motoristas .timeline2 .info3 p span {
-        color: #D4CBF0;
-        font-weight: 500; }
-    .motoristas .timeline2 .info3 {
-      margin-top: 50px; }
-      .motoristas .timeline2 .info3 .btn {
-        margin-top: 80px; }
-  .motoristas .section-bg4 {
-    padding-bottom: 180px; } }
+
+.motoristas .section3 {
+  margin-top: 100px; }
+  .motoristas .section3 h1 {
+    color: #3D2885; }
+  .motoristas .section3 p {
+    color: #655D7E; }
+  .motoristas .section3 .txt1 {
+    padding-right: 130px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    line-height: 41px; }
+    .motoristas .section3 .txt1 span {
+      font-weight: 500;
+      color: #655D7E; }
+  .motoristas .section3 .icon-map {
+    margin-top: 30px; }
+  .motoristas .section3 .txt2 {
+    margin-top: 37px;
+    font-size: 18px;
+    line-height: 32px;
+    padding-right: 110px; }
+    .motoristas .section3 .txt2 span {
+      font-weight: 500;
+      color: #655D7E; }
+
+.motoristas .timeline2 {
+  padding-top: 0px; }
+  .motoristas .timeline2 .info1 h1,
+  .motoristas .timeline2 .info2 h1,
+  .motoristas .timeline2 .info3 h1 {
+    color: white; }
+  .motoristas .timeline2 .info1 p,
+  .motoristas .timeline2 .info2 p,
+  .motoristas .timeline2 .info3 p {
+    color: #A69AD0;
+    font-weight: 400; }
+    .motoristas .timeline2 .info1 p span,
+    .motoristas .timeline2 .info2 p span,
+    .motoristas .timeline2 .info3 p span {
+      color: #D4CBF0;
+      font-weight: 500; }
+  .motoristas .timeline2 .info3 {
+    margin-top: 50px; }
+    .motoristas .timeline2 .info3 .btn {
+      margin-top: 40px; }
+
+.motoristas .section-bg4 {
+  padding-bottom: 180px; }
 
 .passageiros section {
   padding-left: 110px;
@@ -5420,6 +5426,10 @@ readers do not read off random characters that represent icons */
     margin-top: 44px; }
     .passageiros .section1 h1 span, .passageiros .section3 h1 span {
       color: rgba(71, 46, 153, 0.5); }
+
+.passageiros .section1 .aux1 {
+  padding-top: 0;
+  padding-bottom: 40px; }
 
 .passageiros .section2 h1 {
   color: white; }
@@ -5820,6 +5830,8 @@ html, body {
       display: inline-block; }
   .motoristas .section-bg1, .motoristas .section-bg3 {
     margin-top: 240px; }
+  .motoristas .section1 .aux1 {
+    padding-left: 100px; }
   .motoristas .timeline1 {
     padding-top: 200px;
     padding-left: 80px;
@@ -5843,8 +5855,7 @@ html, body {
     padding-top: 280px;
     padding-bottom: 330px; }
   .passageiros .section1 .aux1 {
-    padding-top: 50px;
-    padding-left: 94px; }
+    padding-left: 97px; }
   .passageiros .section3 {
     margin-top: 100px; }
     .passageiros .section3 .aux1 {
