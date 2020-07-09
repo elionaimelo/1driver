@@ -5688,7 +5688,9 @@ html, body {
   margin-bottom: 60px; }
 
 .fale-conosco .section1 {
-  padding-bottom: 130px; }
+  padding-bottom: 130px;
+  margin-top: 0;
+  width: 100%; }
 
 .fale-conosco .section-bg1, .fale-conosco .section-bg3 {
   margin-top: 350px;
