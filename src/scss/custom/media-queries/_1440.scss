@@ -192,9 +192,13 @@
   //fim da página de motorista
 
   .passageiros {
+
+    section {
+      padding-left: 95px;
+    }
     
     .section-bg1 {
-      margin-top: 230px;
+      margin-top: 170px;
       padding-top: 280px;
       padding-bottom: 330px;
     }
@@ -202,6 +206,7 @@
     .section1 {
       .aux1 {
         padding-top: 50px;
+        padding-left: 94px;
       }
     }
 
@@ -211,6 +216,7 @@
       .aux1 {
         padding-top: 40px;
         padding-bottom: 70px;
+        padding-left: 90px;
         h1 {
           padding-right: 60px;
         }

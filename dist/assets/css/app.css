@@ -5272,6 +5272,7 @@ readers do not read off random characters that represent icons */
     margin-top: 30px; }
   .motoristas .section1 {
     padding: 0;
+    margin-top: 0;
     width: 100%;
     border-bottom-right-radius: 50px; }
     .motoristas .section1 .aux1 {
@@ -5365,89 +5366,101 @@ readers do not read off random characters that represent icons */
   .motoristas .section-bg4 {
     padding-bottom: 180px; } }
 
-@media screen and (max-width: 1920px) {
-  .passageiros section {
-    padding-left: 110px;
-    padding-right: 110px; }
-  .passageiros .section-bg1, .passageiros .section-bg3 {
-    margin-top: 270px;
-    background-color: #F74D49;
-    padding-top: 505px;
-    padding-bottom: 430px; }
-  .passageiros .border-before {
-    position: relative; }
-    .passageiros .border-before img {
-      position: relative;
-      z-index: 2; }
-    .passageiros .border-before:before {
-      content: "\A";
-      width: 100%;
-      height: 10px;
-      display: inline-block;
-      background-image: linear-gradient(to right, #F7BBBA 40%, rgba(255, 255, 255, 0) 20%);
-      background-position: top;
-      background-size: 5px 2px;
-      background-repeat: repeat-x;
-      position: absolute;
-      top: 85px;
-      z-index: 1; }
-  .passageiros .form-search {
-    width: 90%; }
-    .passageiros .form-search label img {
-      margin-right: 13px; }
-  .passageiros .btn {
-    margin: 20px auto; }
-  .passageiros .btn-primary, .passageiros .btn-four {
-    width: 340px; }
-  .passageiros section.section2 {
-    padding-right: 0; }
-  .passageiros .section1, .passageiros .section3 {
-    padding: 0;
+.passageiros section {
+  padding-left: 110px;
+  padding-right: 110px; }
+
+.passageiros .section-bg1, .passageiros .section-bg3 {
+  margin-top: 239px;
+  background-color: #F74D49;
+  padding-top: 385px;
+  padding-bottom: 430px; }
+
+.passageiros .border-before {
+  position: relative; }
+  .passageiros .border-before img {
+    position: relative;
+    z-index: 2; }
+  .passageiros .border-before:before {
+    content: "\A";
     width: 100%;
-    border-bottom-right-radius: 50px; }
-    .passageiros .section1 .aux1, .passageiros .section3 .aux1 {
-      padding: 70px 30px 30px 90px; }
-    .passageiros .section1 h1, .passageiros .section3 h1 {
-      color: #472E99;
-      margin-top: 44px; }
-      .passageiros .section1 h1 span, .passageiros .section3 h1 span {
-        color: rgba(71, 46, 153, 0.5); }
-  .passageiros .section2 h1 {
+    height: 10px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #F7BBBA 40%, rgba(255, 255, 255, 0) 20%);
+    background-position: top;
+    background-size: 5px 2px;
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 85px;
+    z-index: 1; }
+
+.passageiros .form-search {
+  width: 90%; }
+  .passageiros .form-search label img {
+    margin-right: 13px; }
+
+.passageiros .btn {
+  margin: 20px auto; }
+
+.passageiros .btn-primary, .passageiros .btn-four {
+  width: 340px; }
+
+.passageiros section.section2 {
+  padding-right: 0; }
+
+.passageiros .section1, .passageiros .section3 {
+  padding: 0;
+  width: 100%;
+  margin-top: 0;
+  border-bottom-right-radius: 50px; }
+  .passageiros .section1 .aux1, .passageiros .section3 .aux1 {
+    padding: 70px 30px 30px 120px; }
+  .passageiros .section1 h1, .passageiros .section3 h1 {
+    color: #472E99;
+    margin-top: 44px; }
+    .passageiros .section1 h1 span, .passageiros .section3 h1 span {
+      color: rgba(71, 46, 153, 0.5); }
+
+.passageiros .section2 h1 {
+  color: white; }
+  .passageiros .section2 h1 span {
+    color: #f7bbba; }
+
+.passageiros .section2 p {
+  margin-top: 35px;
+  font-size: 18px !important; }
+  .passageiros .section2 p .highlight {
+    font-weight: 500;
     color: white; }
-    .passageiros .section2 h1 span {
+
+.passageiros .section3 {
+  margin-top: 110px; }
+  .passageiros .section3 h1 {
+    color: #F74D49;
+    margin-bottom: 45px; }
+    .passageiros .section3 h1 span {
       color: #f7bbba; }
-  .passageiros .section2 p {
-    margin-top: 35px;
-    font-size: 18px !important; }
-    .passageiros .section2 p .highlight {
-      font-weight: 500;
-      color: white; }
-  .passageiros .section3 {
-    margin-top: 110px; }
-    .passageiros .section3 h1 {
-      color: #F74D49;
-      margin-bottom: 45px; }
-      .passageiros .section3 h1 span {
-        color: #f7bbba; }
-  .passageiros .section-bg3 {
-    background-color: #F7F0F0;
-    margin-top: 0;
-    padding-top: 465px;
-    padding-bottom: 112px; }
-  .passageiros .section8 {
-    padding-left: 0;
-    padding-right: 0; }
-    .passageiros .section8 h1 {
-      color: #F74D49; }
-      .passageiros .section8 h1 span {
-        color: rgba(247, 77, 73, 0.5); }
-    .passageiros .section8 p {
-      font-weight: 500;
-      font-size: 1.5rem;
-      line-height: 41px; }
-      .passageiros .section8 p span {
-        color: #655D7E;
-        font-weight: 400; } }
+
+.passageiros .section-bg3 {
+  background-color: #F7F0F0;
+  margin-top: 0;
+  padding-top: 465px;
+  padding-bottom: 112px; }
+
+.passageiros .section8 {
+  padding-left: 0;
+  padding-right: 0; }
+  .passageiros .section8 h1 {
+    color: #F74D49; }
+    .passageiros .section8 h1 span {
+      color: rgba(247, 77, 73, 0.5); }
+  .passageiros .section8 p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 41px; }
+    .passageiros .section8 p span {
+      color: #655D7E;
+      font-weight: 400; }
 
 html, body {
   height: 100%; }
@@ -5823,17 +5836,21 @@ html, body {
       margin-top: 10px; }
     .motoristas .section3 .txt2 {
       padding-right: 0; }
+  .passageiros section {
+    padding-left: 95px; }
   .passageiros .section-bg1, .passageiros .section-bg3 {
-    margin-top: 230px;
+    margin-top: 170px;
     padding-top: 280px;
     padding-bottom: 330px; }
   .passageiros .section1 .aux1 {
-    padding-top: 50px; }
+    padding-top: 50px;
+    padding-left: 94px; }
   .passageiros .section3 {
     margin-top: 100px; }
     .passageiros .section3 .aux1 {
       padding-top: 40px;
-      padding-bottom: 70px; }
+      padding-bottom: 70px;
+      padding-left: 90px; }
       .passageiros .section3 .aux1 h1 {
         padding-right: 60px; }
   .passageiros .section-bg3 {
