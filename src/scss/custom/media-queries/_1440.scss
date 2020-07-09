@@ -14,7 +14,7 @@
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   p {
@@ -85,6 +85,8 @@
       padding-left: $general-padding-left - 30px;
       padding-right: $general-padding-left - 30px;
 
+
+
       img {
         max-width: 80%;
       }
@@ -97,7 +99,8 @@
     .section6 {
       padding-left: $general-padding-left - 30px;
       padding-right: $general-padding-left - 30px;
-
+      
+ 
       img {
         max-width: 80%;
       }
@@ -108,11 +111,7 @@
       }
     }
 
-    .section7 {
-      h1 {
-        padding-right: 70px;
-      }
-    }
+
 
     .section-bg3 {
       padding-top: 250px;

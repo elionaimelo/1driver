@@ -5235,7 +5235,7 @@ readers do not read off random characters that represent icons */
       color: #F7BBBA; }
 
 .index .section7 h1 {
-  padding-right: 130px;
+  padding-right: 0px;
   margin-top: 10px;
   color: #F74D49; }
   .index .section7 h1 span {
@@ -5770,7 +5770,7 @@ html, body {
   #header {
     padding-left: 75px; }
   h1 {
-    font-size: 2rem; }
+    font-size: 2.5rem; }
   p {
     font-size: 1.2rem !important; }
   .index .flex-095 {
@@ -5815,8 +5815,6 @@ html, body {
       max-width: 80%; }
     .index .section6 p {
       line-height: 31px; }
-  .index .section7 h1 {
-    padding-right: 70px; }
   .index .section-bg3 {
     padding-top: 250px; }
     .index .section-bg3 p {
