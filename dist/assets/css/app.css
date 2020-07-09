@@ -361,6 +361,11 @@ h3 {
   .active a {
     color: #472e99 !important; }
 
+.arrow-left {
+  position: absolute;
+  left: 50px;
+  top: 20px; }
+
 .btn-primary, .btn-four {
   background-color: #F74D49;
   color: white;
