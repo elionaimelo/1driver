@@ -5795,6 +5795,8 @@ html, body {
     padding-left: 129px;
     padding-right: 0;
     line-height: 31px; }
+  .index .section3 .box-white h1 {
+    padding-right: 80px; }
   .index .section3 .box-purple {
     padding-left: 100px; }
     .index .section3 .box-purple p {
