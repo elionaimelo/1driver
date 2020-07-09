@@ -6,7 +6,7 @@
     padding-right: $general-padding-right;
     
     .social {
-      margin-top: 100px;
+      margin-top: 110px;
       margin-bottom: 80px;
 
       a{
@@ -35,7 +35,8 @@
     .shop {
       
       a:not(:last-child) {
-        margin-right: 40px;
+        margin-right: 25px;
+        margin-bottom: 20px;
       }
     }
 
@@ -60,7 +61,8 @@
     }
   
     p {
-      margin-bottom: 51px;
+      margin-bottom: 56px;
+      font-size: 1.625rem;
 
       a {
         color: $colorTxt;

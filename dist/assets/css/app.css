@@ -490,7 +490,7 @@ footer {
   padding-left: 110px;
   padding-right: 110px; }
   footer .social {
-    margin-top: 100px;
+    margin-top: 110px;
     margin-bottom: 80px; }
     footer .social a {
       color: #D4CBF0; }
@@ -504,7 +504,8 @@ footer {
     footer .btn-primary:not(:last-child), footer .btn-four:not(:last-child) {
       margin-right: 20px; }
   footer .shop a:not(:last-child) {
-    margin-right: 40px; }
+    margin-right: 25px;
+    margin-bottom: 20px; }
   footer h1 {
     margin-bottom: 30px;
     color: #472E99; }
@@ -517,7 +518,8 @@ footer {
   footer .whatsapp {
     margin-right: 0; }
   footer p {
-    margin-bottom: 51px; }
+    margin-bottom: 56px;
+    font-size: 1.625rem; }
     footer p a {
       color: #655D7E;
       display: inline-block; }
