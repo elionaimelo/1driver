@@ -6105,7 +6105,8 @@ html, body {
     .index .section2 .txt-purple {
       padding-right: 20px;
       margin-top: 120px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      padding-left: 0; }
     .index .section2 .txt1 {
       padding-left: 0;
       margin-top: 30px;
@@ -6114,6 +6115,8 @@ html, body {
     padding-left: 0; }
   .index .section3 .box-white {
     padding: 50px 50px 80px 50px; }
+    .index .section3 .box-white h1 {
+      padding-right: 0; }
   .index .section3 .btn-floating {
     left: 50%;
     margin-left: -130px; }
@@ -6252,4 +6255,8 @@ html, body {
     margin-left: 10px;
     margin-right: 10px; }
   .login .form-login form#login-form {
-    padding: 0 40px; } }
+    padding: 0 40px; }
+  .arrow-left {
+    margin: 0 !important;
+    left: 15px;
+    top: 15px; } }
