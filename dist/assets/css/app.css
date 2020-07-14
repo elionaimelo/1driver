@@ -6239,6 +6239,8 @@ html, body {
     width: auto; }
   .escolha .arrow-left {
     margin: 25px 25px 0; }
+  .escolha svg {
+    margin-left: -20px; }
   .escolha .box-choice {
     padding-bottom: 40px; }
   footer {
