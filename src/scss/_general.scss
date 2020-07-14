@@ -177,6 +177,15 @@ h3 {
   padding-bottom: 505px;
 }
 
+.remove-padding-right-xs {
+  padding-right: 0 !important;
+}
+
+.remove-padding-xs {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
 .form-search,
 .form-registration,
 .form-login,

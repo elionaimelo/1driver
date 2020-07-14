@@ -80,10 +80,6 @@
       padding-left: 0;
     }
 
-    .remove-padding-xs {
-      padding-right: 0;
-    }
-
     .section3 {
       .box-white {
         padding: 50px 50px 80px 50px;
@@ -201,6 +197,8 @@
 
     .section3 {   
       position: relative;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
 
       h1 {
         padding-right: 0;
