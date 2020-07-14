@@ -80,9 +80,15 @@
       padding-left: 0;
     }
 
+    .remove-padding-xs {
+      padding-right: 0;
+    }
+
     .section3 {
       .box-white {
         padding: 50px 50px 80px 50px;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 0;
 
         h1 {
           padding-right: 0;
@@ -92,6 +98,8 @@
       .btn-floating {
         left: 50%;
         margin-left: -130px;
+        padding-left: 40px;
+        padding-right: 40px;
       }
 
       .box-purple {
@@ -106,10 +114,16 @@
     .section5 , .section7 {
       padding: 50px 40px;
       position: relative;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
 
       h1 {
         padding-right: 0px;
       }
+    }
+
+    .section7 {
+      margin-right:-20px
     }
 
     .section6 {
@@ -161,13 +175,15 @@
       .aux1 {
         padding: 0;
         h1 {
-          padding-top: 30px;
+          padding-top: 0px;
           padding-left: 25px;
+          padding-right: 20px;
         }
 
         .btn {
           margin-left: 20px;
           margin-right: 20px;
+          margin-bottom: 50px;
         }
       }
     }
