@@ -48,7 +48,7 @@ function copyAssets(done) {
           gulp.src(asset).pipe(gulp.dest(folder.dist_assets + "libs/" + name));
         });
       });
-      //gulp.src(assets).pipe(gulp.dest(folder.dist_assets + "css/vendor"));
+      gulp.src(assets).pipe(gulp.dest(folder.dist_assets + "css/vendor"));
     }
   });
 
