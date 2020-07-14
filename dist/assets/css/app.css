@@ -6074,7 +6074,7 @@ html, body {
   .remove-padding-xs {
     padding-right: 0 !important;
     padding-left: 0 !important; }
-  .border-top-bottom-right-radius-none, .index .section5, .index .section7, .motoristas .section3, .passageiros .section3 {
+  .border-top-bottom-right-radius-none, .index .section5, .index .section7, .motoristas .section3, .passageiros .section3, .fale-conosco .section1 {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0; }
   .container-fluid {
@@ -6257,7 +6257,7 @@ html, body {
   .cadastro-motorista .arrow-left {
     margin: 25px 25px 0; }
   .fale-conosco .section1 {
-    padding: 60px 30px; }
+    padding: 30px 30px 60px 30px; }
     .fale-conosco .section1 .aux1 h1 {
       padding: 0 20px; }
   .politica-privacidade .section1 {

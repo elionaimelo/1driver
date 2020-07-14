@@ -353,7 +353,8 @@
 
   .fale-conosco {
     .section1 {
-      padding: 60px 30px;
+      padding: 30px 30px 60px 30px;
+      @extend .border-top-bottom-right-radius-none;
 
       .aux1 {
         h1 {
