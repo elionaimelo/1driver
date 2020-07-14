@@ -13,6 +13,8 @@
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
   </head>
   <body class="passageiros">
+    <div class="wrapper">
+
     <header id="header">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-light">
@@ -53,7 +55,7 @@
       </div>
     </header>
 
-    <div class="container-fluid">
+    <div class="container-fluid remove-padding-xs">
       <div class="position-relative">
         <section class="section1">
           <div class="row">
@@ -80,7 +82,12 @@
               <img
                 src="assets/images/passageiro1.png"
                 alt=""
-                class="img-fluid"
+                class="img-fluid d-none d-md-block"
+              />
+              <img
+                src="assets/images/passageiro1mobile.png"
+                alt=""
+                class="img-fluid d-block d-md-none"
               />
             </div>
           </div>
@@ -98,12 +105,12 @@
             <div class="col-md-4 border-before">
               <img
                 src="assets/images/icone-solicite.png"
-                class="img-fluid"
+                class="img-fluid d-block d-md-inline mx-auto"
                 alt=""
               />
               <div class="row">
-                <div class="col-8 col-lg-9">
-                  <h1 class="text-lg-left">
+                <div class="col-12 col-lg-9">
+                  <h1 class="text-center text-lg-left">
                     Solicite
                     <span class="highlight"
                       >uma<br />
@@ -124,12 +131,12 @@
             <div class="col-md-4 border-before">
               <img
                 src="assets/images/icone-escolha-pagamento.png"
-                class="img-fluid"
+                class="img-fluid d-block d-md-inline mx-auto"
                 alt=""
               />
               <div class="row">
-                <div class="col-8 col-lg-9">
-                  <h1 class="text-lg-left">
+                <div class="col-12 col-lg-9">
+                  <h1 class="text-center text-lg-left">
                     Escolha <span class="highlight">como pagar</span>
                   </h1>
                   <p class="text-white">
@@ -143,12 +150,12 @@
             <div class="col-md-4">
               <img
                 src="assets/images/icone-avaliacao.png"
-                class="img-fluid"
+                class="img-fluid d-block d-md-inline mx-auto"
                 alt=""
               />
               <div class="row">
-                <div class="col-8 col-lg-9">
-                  <h1 class="text-lg-left">
+                <div class="col-12 col-lg-9">
+                  <h1 class="text-center text-lg-left">
                     Avalie <span class="highlight">sua experiência</span>
                   </h1>
                   <p class="text-white">
@@ -165,12 +172,14 @@
           </div>
         </section>
 
-        <div class="position-relative">
+      </div>
+
+        <div class="position-relative container-fluid remove-padding-right-xs">
           <section class="section3">
             <div class="row">
               <div class="col-lg-5">
                 <div class="aux1">
-                  <h1 class="text-lg-left">
+                  <h1 class="text-center text-lg-left">
                     Veja quanto
                     <span class="highlight"> você vai gastar!</span>
                   </h1>
@@ -331,6 +340,8 @@
         </div>
       </div>
     </footer>
+
+    </div>
 
     <!-- Vendor js -->
     <script src="assets/js/vendor.js"></script>

@@ -1,6 +1,20 @@
 
 @media screen and (max-width: 600px) {
 
+  .remove-padding-right-xs {
+    padding-right: 0 !important;
+  }
+  
+  .remove-padding-xs {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .border-top-bottom-right-radius-none {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
   .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
@@ -110,8 +124,7 @@
     .section5 , .section7 {
       padding: 50px 40px;
       position: relative;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
+      @extend .border-top-bottom-right-radius-none;
 
       h1 {
         padding-right: 0px;
@@ -197,8 +210,7 @@
 
     .section3 {   
       position: relative;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
+      @extend .border-top-bottom-right-radius-none;
 
       h1 {
         padding-right: 0;
@@ -263,6 +275,8 @@
 
     .section3 {
       margin-top: 50px;
+      @extend .border-top-bottom-right-radius-none;
+      border-bottom-left-radius: 50px;
       
       .aux1 {
         padding: 20px 30px;
