@@ -6106,8 +6106,10 @@ html, body {
     .index .section1 .bg-purple .btn {
       margin-bottom: 30px; }
     .index .section1 .bg-purple img {
-      margin-bottom: 120px;
-      max-width: 100%; }
+      margin: auto;
+      margin-bottom: 150px;
+      max-width: 100%;
+      display: block; }
   .index .section-bg1, .index .section-bg3 {
     margin-top: -71px;
     padding-bottom: 110px; }
