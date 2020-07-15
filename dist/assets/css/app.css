@@ -6274,6 +6274,12 @@ html, body {
       margin-bottom: 50px; }
   .cadastro-motorista .arrow-left {
     margin: 25px 25px 0; }
+  .cadastro-motorista .box-choice img {
+    margin-left: 0; }
+  .cadastro-motorista .box-choice h1 {
+    font-size: 1.79rem; }
+  .cadastro-motorista .box-choice p {
+    font-size: 1.1rem !important; }
   .fale-conosco .section1 {
     padding: 30px 30px 60px 30px; }
     .fale-conosco .section1 .aux1 h1 {
