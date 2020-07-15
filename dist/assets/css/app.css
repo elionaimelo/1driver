@@ -5907,13 +5907,19 @@ html, body {
     min-height: 200px;
     margin-left: 0; }
     .index .section1 .bg-purple .aux1 {
-      padding: 40px 45px 260px 45px; }
+      padding: 70px 45px 260px 45px; }
     .index .section1 .bg-purple .btn {
       margin-bottom: 30px;
       margin-right: 0; }
     .index .section1 .bg-purple img {
+      margin: auto;
       margin-bottom: 120px;
-      max-width: 100%; }
+      max-width: 100%;
+      display: block; }
+    .index .section1 .bg-purple h1 {
+      text-align: center; }
+    .index .section1 .bg-purple p {
+      text-align: center; }
   .index .section-bg1, .index .section-bg3 {
     margin-top: -71px;
     padding-bottom: 110px; }
@@ -5921,7 +5927,6 @@ html, body {
     padding-top: 60px;
     padding-left: 30px; }
     .index .section2 .txt-purple {
-      padding-right: 20px;
       margin-top: 120px;
       margin-bottom: 30px; }
     .index .section2 .txt1 {
@@ -6171,7 +6176,8 @@ html, body {
   .motoristas .timeline2,
   .motoristas footer {
     padding-left: 0px;
-    padding-right: 0px; }
+    padding-right: 0px;
+    margin-bottom: 0; }
   .motoristas .section1 .aux1 {
     padding: 0; }
     .motoristas .section1 .aux1 h1 {
@@ -6183,12 +6189,18 @@ html, body {
       margin-right: 20px;
       margin-bottom: 50px; }
   .motoristas .timeline1 .info1,
+  .motoristas .timeline2 .info1 {
+    margin-top: 0px; }
+  .motoristas .timeline1 .info1,
   .motoristas .timeline1 .info2,
   .motoristas .timeline1 .info3,
   .motoristas .timeline2 .info1,
   .motoristas .timeline2 .info2,
   .motoristas .timeline2 .info3 {
     margin-bottom: 60px; }
+  .motoristas .timeline1 .info3,
+  .motoristas .timeline2 .info3 {
+    margin-bottom: 110px; }
   .motoristas .section3 {
     position: relative; }
     .motoristas .section3 h1 {
@@ -6237,6 +6249,8 @@ html, body {
       padding-right: 30px;
       margin-left: 0;
       width: 100%; }
+  .passageiros .section-bg1, .passageiros .section-bg3 {
+    margin-top: 0; }
   .passageiros .section8 .btn {
     width: auto; }
   .escolha .arrow-left {
