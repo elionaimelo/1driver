@@ -6278,6 +6278,8 @@ html, body {
     padding: 30px 30px 60px 30px; }
     .fale-conosco .section1 .aux1 h1 {
       padding: 0 20px; }
+  .fale-conosco .section-bg1, .fale-conosco .section-bg3 {
+    padding-bottom: 560px; }
   .politica-privacidade .section1 {
     padding: 60px 30px;
     position: relative; }
